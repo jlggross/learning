@@ -1,2 +1,2 @@
 # learning
-Learning files from my studiesto become a Data Scientist
+Learning files from my studies to become a Data Scientist
