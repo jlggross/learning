@@ -11,4 +11,10 @@ Not and actual project. This repository keep track of learning files from my stu
 
 * **shell-commands.sh**: Annotations from the "Introduction to Shell" (https://learn.datacamp.com/courses/introduction-to-shell) from Datacamp. The file is **not** a runnable script. It's a notebook for the specified course.
 
+
+
+## Projects
+
+* **Project 1 - TV, Halftime Shows, and the Big Game**: In this project Super Bowl game, television, and halftime show data are loaded, cleaned, then explored. It explores visualization of distributions of combined points, point differences, and halftime show performances using histograms. Line plots are used to see how ad cost increases lagged behind viewership increases. Finally, conclusion shows that blowouts do appear to lead to a drop in viewers.
+
 ---
