@@ -1,0 +1,402 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.080
+Nice job so far!
+
+2
+00:00:03.080 --> 00:00:05.760
+Let's learn about data pipelines.
+
+3
+00:00:05.760 --> 00:00:11.760
+So far we've learned about data collection and storage, but how can we scale all this?
+
+4
+00:00:11.760 --> 00:00:13.640
+This is where data pipelines come in.
+
+5
+00:00:13.640 --> 00:00:14.960
+
+
+6
+00:00:14.960 --> 00:00:14.960
+
+
+7
+00:00:14.960 --> 00:00:18.880
+Data engineers work to collect and store data, so that others,
+
+8
+00:00:18.880 --> 00:00:27.680
+like analysts and data scientists can access data for their work, whether it's for visualization or building machine learning models.
+
+9
+00:00:27.680 --> 00:00:27.680
+
+
+10
+00:00:27.680 --> 00:00:27.680
+
+
+11
+00:00:27.680 --> 00:00:29.080
+But how do we scale this?
+
+12
+00:00:29.080 --> 00:00:29.080
+
+
+13
+00:00:29.080 --> 00:00:29.080
+
+
+14
+00:00:29.080 --> 00:00:36.480
+Consider the different data sources you learned about - what if we're collecting data from more than one data source?
+
+15
+00:00:36.480 --> 00:00:36.480
+
+
+16
+00:00:36.480 --> 00:00:37.320
+
+
+17
+00:00:37.320 --> 00:00:41.960
+And then, what if these data sources have different types of data?
+
+18
+00:00:41.960 --> 00:00:46.360
+For example, consider real-time streaming data, which is data that
+
+19
+00:00:46.360 --> 00:00:51.560
+is continuously being generated, like tweets from all around the world.
+
+20
+00:00:51.560 --> 00:00:51.560
+
+
+21
+00:00:51.560 --> 00:00:51.560
+
+
+22
+00:00:51.560 --> 00:00:55.680
+This makes storing this incoming data complicated, because as a
+
+23
+00:00:55.680 --> 00:01:01.640
+data engineer, you want to make sure data is organized and easy to access.
+
+24
+00:01:01.640 --> 00:01:01.640
+
+
+25
+00:01:01.640 --> 00:01:01.680
+
+
+26
+00:01:01.680 --> 00:01:03.880
+Enter the data pipeline.
+
+27
+00:01:03.880 --> 00:01:08.800
+A data pipeline moves data into defined stages, for example,
+
+28
+00:01:08.800 --> 00:01:14.960
+from data ingestion through an API to loading data into a database.
+
+29
+00:01:14.960 --> 00:01:15.000
+
+
+30
+00:01:15.000 --> 00:01:15.000
+
+
+31
+00:01:15.000 --> 00:01:19.320
+A key feature is that pipelines automate this movement.
+
+32
+00:01:19.320 --> 00:01:22.840
+Data is constantly coming in and it would be tedious to ask a
+
+33
+00:01:22.840 --> 00:01:27.400
+data engineer to manually run programs to collect and store data.
+
+34
+00:01:27.400 --> 00:01:35.200
+Instead a data engineer schedules tasks whether it's hourly, daily, or tasks can be triggered by an event.
+
+35
+00:01:35.200 --> 00:01:35.200
+
+
+36
+00:01:35.200 --> 00:01:35.200
+
+
+37
+00:01:35.200 --> 00:01:41.360
+Because of this automation, data pipelines need to be monitored.
+
+38
+00:01:41.360 --> 00:01:45.040
+Luckily, alerts can be generated automatically,
+
+39
+00:01:45.040 --> 00:01:54.240
+for example, when 95% of storage capacity has been reach or if an API is responding with an error.
+
+40
+00:01:54.240 --> 00:01:54.240
+
+
+41
+00:01:54.240 --> 00:01:54.240
+
+
+42
+00:01:54.240 --> 00:01:58.520
+Data pipelines aren't necessary for all data science projects,
+
+43
+00:01:58.520 --> 00:02:02.120
+but they are when working with a lot of data from different sources.
+
+44
+00:02:02.120 --> 00:02:02.120
+
+
+45
+00:02:02.120 --> 00:02:03.120
+
+
+46
+00:02:03.120 --> 00:02:07.040
+There isn't a set way to make a pipeline - pipelines are highly
+
+47
+00:02:07.040 --> 00:02:13.760
+customized depending on your data, storage options, and ultimate usage of the data.
+
+48
+00:02:13.760 --> 00:02:13.760
+
+
+49
+00:02:13.760 --> 00:02:13.760
+
+
+50
+00:02:13.760 --> 00:02:21.600
+ETL, which stands for extract, transform, and load, is a popular framework for data pipelines.
+
+51
+00:02:21.600 --> 00:02:23.440
+Let's explore it with a case study.
+
+52
+00:02:23.440 --> 00:02:23.440
+
+
+53
+00:02:23.440 --> 00:02:23.440
+
+
+54
+00:02:23.440 --> 00:02:30.600
+After learning about IoT devices and APIs, you decide to try out both.
+
+55
+00:02:30.600 --> 00:02:35.000
+Specifically, you want to use APIs and devices in your house
+
+56
+00:02:35.000 --> 00:02:38.520
+to better understand the status of your house and neighborhood.
+
+57
+00:02:38.520 --> 00:02:38.520
+
+
+58
+00:02:38.520 --> 00:02:38.520
+
+
+59
+00:02:38.520 --> 00:02:44.640
+You gather a list of data sources and associated information.
+
+60
+00:02:44.640 --> 00:02:47.800
+The first two are provided by APIs.
+
+61
+00:02:47.800 --> 00:02:51.240
+Every 30 minutes, you get the weather conditions, and you get
+
+62
+00:02:51.240 --> 00:02:54.840
+Tweets geotagged in your neighborhood whenever they are published.
+
+63
+00:02:54.840 --> 00:03:03.320
+The remaining rows are IoT devices that send their sensor data over the internet at the specified frequencies.
+
+64
+00:03:03.320 --> 00:03:03.320
+
+
+65
+00:03:03.320 --> 00:03:04.600
+
+
+66
+00:03:04.600 --> 00:03:05.920
+How does it all come together?
+
+67
+00:03:05.920 --> 00:03:10.480
+First, we begin with extracting all the data from the data
+
+68
+00:03:10.480 --> 00:03:15.520
+sources we listed, whether it's an API or setting up an IoT device.
+
+69
+00:03:15.520 --> 00:03:23.760
+However, a quick look at the frequencies and structures makes us realize that storing the raw data as is won't work.
+
+70
+00:03:23.760 --> 00:03:23.760
+
+
+71
+00:03:23.760 --> 00:03:23.760
+
+
+72
+00:03:23.760 --> 00:03:27.120
+This is where the transform phase comes in.
+
+73
+00:03:27.120 --> 00:03:27.120
+
+
+74
+00:03:27.120 --> 00:03:28.640
+
+
+75
+00:03:28.640 --> 00:03:31.960
+In this stage, we transform data to make sure data stays
+
+76
+00:03:31.960 --> 00:03:36.000
+organized so that others can easily find relevant data and use it.
+
+77
+00:03:36.000 --> 00:03:36.000
+
+
+78
+00:03:36.000 --> 00:03:36.000
+
+
+79
+00:03:36.000 --> 00:03:43.080
+A common transformation is joining data from different sources into one dataset.
+
+80
+00:03:43.080 --> 00:03:49.080
+Another is converting the incoming data's structure to fit a database's schema.
+
+81
+00:03:49.080 --> 00:03:53.320
+A database's schema informs us how data must be structured before loading it in.
+
+82
+00:03:53.320 --> 00:03:57.640
+A transformation can also be removing irrelevant data.
+
+83
+00:03:57.640 --> 00:04:04.520
+For example, the Twitter API, not only gives you a tweet but others details, like the
+
+84
+00:04:04.520 --> 00:04:10.200
+number of followers the author has, which is not useful in our scenario, so we shouldn't store it.
+
+85
+00:04:10.200 --> 00:04:10.200
+
+
+86
+00:04:10.200 --> 00:04:10.200
+
+
+87
+00:04:10.200 --> 00:04:17.160
+Data gets altered throughout the data science workflow, it's important to note that analytical
+
+88
+00:04:17.160 --> 00:04:23.760
+tasks like data preparation and exploration don't occur at this stage - we'll see this in chapter 3.
+
+89
+00:04:23.760 --> 00:04:23.760
+
+
+90
+00:04:23.760 --> 00:04:23.760
+
+
+91
+00:04:23.760 --> 00:04:31.320
+Finally, we load the data into storage so that it can be used for visualization and analysis.
+
+92
+00:04:31.320 --> 00:04:31.320
+
+
+93
+00:04:31.320 --> 00:04:31.320
+
+
+94
+00:04:31.320 --> 00:04:35.480
+Once we've set up all those steps, we automate.
+
+95
+00:04:35.480 --> 00:04:39.240
+For example, we can say every time we get a
+
+96
+00:04:39.240 --> 00:04:44.880
+tweet, we transform it in a certain way and store it in a specific table in our database.
+
+97
+00:04:44.880 --> 00:04:50.360
+There are tools that specialized to do this, the most popular is called Airflow.
+
+98
+00:04:50.360 --> 00:04:50.360
+
+
+99
+00:04:50.360 --> 00:04:50.360
+
+
+100
+00:04:50.360 --> 00:04:56.440
+Now, it's time for some exercises.
+

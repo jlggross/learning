@@ -1,0 +1,414 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.840
+We finished the last lesson looking at some graphs, so let's talk a little more about visualization.
+
+2
+00:00:06.840 --> 00:00:06.840
+
+
+3
+00:00:06.840 --> 00:00:06.920
+
+
+4
+00:00:06.920 --> 00:00:10.800
+One picture is worth a thousand words, they say.
+
+5
+00:00:10.800 --> 00:00:15.280
+Based on what we saw in the previous lesson, we would tend to agree.
+
+6
+00:00:15.280 --> 00:00:18.600
+However, there are a few things to pay attention to, to
+
+7
+00:00:18.600 --> 00:00:23.160
+ensure your chart is easily understandable and straight to the point.
+
+8
+00:00:23.160 --> 00:00:23.160
+
+
+9
+00:00:23.160 --> 00:00:23.160
+
+
+10
+00:00:23.160 --> 00:00:27.000
+For example, you should use color purposefully.
+
+11
+00:00:27.000 --> 00:00:28.120
+Remember this graph?
+
+12
+00:00:28.120 --> 00:00:31.400
+Count of launches by year, pretty straightforward.
+
+13
+00:00:31.400 --> 00:00:31.400
+
+
+14
+00:00:31.400 --> 00:00:32.320
+
+
+15
+00:00:32.320 --> 00:00:33.600
+What about this one?
+
+16
+00:00:33.600 --> 00:00:33.600
+
+
+17
+00:00:33.600 --> 00:00:33.600
+
+
+18
+00:00:33.600 --> 00:00:36.840
+So colorful, so much better!
+
+19
+00:00:36.840 --> 00:00:36.840
+
+
+20
+00:00:36.840 --> 00:00:36.840
+
+
+21
+00:00:36.840 --> 00:00:37.960
+Wrong!
+
+22
+00:00:37.960 --> 00:00:42.440
+Granted, it's aesthetically pleasing, but it's also confusing.
+
+23
+00:00:42.440 --> 00:00:45.200
+What do the colors correspond to?
+
+24
+00:00:45.200 --> 00:00:46.360
+Nothing.
+
+25
+00:00:46.360 --> 00:00:48.440
+We're just counting launches per year.
+
+26
+00:00:48.440 --> 00:00:51.280
+One color is enough.
+
+27
+00:00:51.280 --> 00:00:51.280
+
+
+28
+00:00:51.280 --> 00:00:51.280
+
+
+29
+00:00:51.280 --> 00:00:54.000
+You should also be mindful of colorblindness.
+
+30
+00:00:54.000 --> 00:01:00.200
+You may distinguish red and green very well, but some people don't, and more than you think.
+
+31
+00:01:00.200 --> 00:01:04.040
+You can find a lot of information on colorblindness online, as
+
+32
+00:01:04.040 --> 00:01:08.560
+well as palettes of colors that are accessible to colorblind people.
+
+33
+00:01:08.560 --> 00:01:08.560
+
+
+34
+00:01:08.560 --> 00:01:08.560
+
+
+35
+00:01:08.560 --> 00:01:10.880
+You should also use readable fonts.
+
+36
+00:01:10.880 --> 00:01:13.280
+Sans-serif ones are easier to read.
+
+37
+00:01:13.280 --> 00:01:21.160
+There are nicer fonts available, sure, but your readers should focus on your viz message, not on the font.
+
+38
+00:01:21.160 --> 00:01:21.160
+
+
+39
+00:01:21.160 --> 00:01:21.160
+
+
+40
+00:01:21.160 --> 00:01:25.160
+An image is worth a thousand words, but words do help.
+
+41
+00:01:25.160 --> 00:01:30.480
+Your graphs should always have a title, so we know what we're looking at; the x
+
+42
+00:01:30.480 --> 00:01:35.800
+and y axis should have labels, otherwise they could be anything; and you should
+
+43
+00:01:35.800 --> 00:01:40.600
+provide a legend if you use colors and patterns, so that we know what they refer to.
+
+44
+00:01:40.600 --> 00:01:40.600
+
+
+45
+00:01:40.600 --> 00:01:42.480
+
+
+46
+00:01:42.480 --> 00:01:49.880
+There are some cases when you can start your axes higher than zero, if you want to zoom in on evolution, for example.
+
+47
+00:01:49.880 --> 00:01:51.160
+But it can be misleading.
+
+48
+00:01:51.160 --> 00:01:51.160
+
+
+49
+00:01:51.160 --> 00:01:51.160
+
+
+50
+00:01:51.160 --> 00:01:55.320
+Here, it looks like Obamacare enrollment is far from the goal,
+
+51
+00:01:55.320 --> 00:01:55.920
+
+
+52
+00:01:55.920 --> 00:01:57.560
+when it's actually close.
+
+53
+00:01:57.560 --> 00:01:57.560
+
+
+54
+00:01:57.560 --> 00:01:57.560
+
+
+55
+00:01:57.560 --> 00:02:02.160
+Follow these advises, and you should prevent your readers the
+
+56
+00:02:02.160 --> 00:02:05.480
+confusion that comes with badly designed graphs like this one,
+
+57
+00:02:05.480 --> 00:02:06.360
+
+
+58
+00:02:06.360 --> 00:02:06.960
+Or this one.
+
+59
+00:02:06.960 --> 00:02:08.880
+I don't know where to start.
+
+60
+00:02:08.880 --> 00:02:08.880
+
+
+61
+00:02:08.880 --> 00:02:10.360
+
+
+62
+00:02:10.360 --> 00:02:15.200
+If a picture is worth a thousand words, then what is worth a thousand pictures?
+
+63
+00:02:15.200 --> 00:02:15.200
+
+
+64
+00:02:15.200 --> 00:02:15.200
+
+
+65
+00:02:15.200 --> 00:02:17.520
+A dashboard!
+
+66
+00:02:17.520 --> 00:02:21.320
+Well, technically, a dashboard of a few pictures is enough already.
+
+67
+00:02:21.320 --> 00:02:25.840
+My point is, showing several pictures together can be more insightful than
+
+68
+00:02:25.840 --> 00:02:30.840
+looking at them separately, or trying to pack all the insights in one graph.
+
+69
+00:02:30.840 --> 00:02:30.840
+
+
+70
+00:02:30.840 --> 00:02:30.840
+
+
+71
+00:02:30.840 --> 00:02:39.240
+Your car dashboard indicates the car speed, the motor rotation speed and the proportion of gas left.
+
+72
+00:02:39.240 --> 00:02:41.880
+Individually, these pieces of information are useful.
+
+73
+00:02:41.880 --> 00:02:48.040
+But together, they paint a much bigger picture and make your trip more safe and more comfortable.
+
+74
+00:02:48.040 --> 00:02:48.040
+
+
+75
+00:02:48.040 --> 00:02:48.040
+
+
+76
+00:02:48.040 --> 00:02:52.680
+That's what dashboards do: group all the relevant information
+
+77
+00:02:52.680 --> 00:02:57.720
+in one place to make it easier to gather insights and act on them.
+
+78
+00:02:57.720 --> 00:02:57.720
+
+
+79
+00:02:57.720 --> 00:02:57.720
+
+
+80
+00:02:57.720 --> 00:03:01.960
+On this dashboard, any sales person can see not only how sales are
+
+81
+00:03:01.960 --> 00:03:07.520
+progressing this quarter, but also how this progression compares to previous quarters.
+
+82
+00:03:07.520 --> 00:03:14.360
+On top of that, they can keep track of transactions and opportunities, as well as of customer count.
+
+83
+00:03:14.360 --> 00:03:19.400
+They can filter all of this data by software, service or maintenance sales.
+
+84
+00:03:19.400 --> 00:03:23.400
+All of that in one place, customized for their needs!
+
+85
+00:03:23.400 --> 00:03:23.400
+
+
+86
+00:03:23.400 --> 00:03:23.400
+
+
+87
+00:03:23.400 --> 00:03:28.760
+Business Intelligence tools let you clean, explore, visualize
+
+88
+00:03:28.760 --> 00:03:33.440
+data, and build dashboards, without requiring any programming knowledge.
+
+89
+00:03:33.440 --> 00:03:33.440
+
+
+90
+00:03:33.440 --> 00:03:33.440
+
+
+91
+00:03:33.440 --> 00:03:37.920
+Such tools are Tableau, Looker, or Power BI.
+
+92
+00:03:37.920 --> 00:03:43.440
+Of course, you can also do that programmatically using Python, R, or even JavaScript.
+
+93
+00:03:43.440 --> 00:03:43.440
+
+
+94
+00:03:43.440 --> 00:03:43.440
+
+
+95
+00:03:43.440 --> 00:03:51.160
+The next level is to make your visualization interactive, which BI tools make really easy.
+
+96
+00:03:51.160 --> 00:03:57.160
+It lets you display more targeted information when hovering over an element, like you can see here.
+
+97
+00:03:57.160 --> 00:03:57.160
+
+
+98
+00:03:57.160 --> 00:03:57.160
+
+
+99
+00:03:57.160 --> 00:04:04.120
+We also talked about filters: here the user can filter on the type of sales and the quarter.
+
+100
+00:04:04.120 --> 00:04:08.040
+Giving power to the user is a great way to engage them.
+
+101
+00:04:08.040 --> 00:04:08.040
+
+
+102
+00:04:08.040 --> 00:04:08.040
+
+
+103
+00:04:08.040 --> 00:04:13.040
+Home stretch to Chapter 4!
+

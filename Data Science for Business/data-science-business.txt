@@ -1,0 +1,174 @@
+Course: Data Science for Business 
+
+# ----------------------------------------------------
+# Annotations
+# ----------------------------------------------------
+
+* Data is essential to detect and prevent events 
+* More data that even before nowadays. Processing techniques 
+brings new insights
+
+* Data science workflos
+	1. Data collection
+	2. Exploration and visualization
+	3. Experimentation and prediction
+	
+* OKR: stands for Objective/Key Result. 
+	- An Objective is a goal, and a Key Result is a numerical measure of that goal.
+	- Example
+	
+	Objective 1: Improve Data Hygiene
+		KR1: Data from QuickBooks is imported into our data lake within 24 hours
+		KR2: Decrease instances of reported errors by 20% by implementing tests
+	Objective 2: Add Transparency to Company KPIs
+		KR1: Create at least 8 dashboards: one for each team's KPIs
+		KR2: Produce at least 3 monthly newsletters tracking key data team studies
+	Objective 3: Increase Key Engagement
+		KR1: Use a linear regression to estimate a user's Net Promoter Score (NPS) 
+		based on their previous purchases, social media interactions, and cohort.
+		
+* Applications
+	- Machine Learning
+		- Make predictions form data
+		- Defines a problem/question to be put to test
+		- Trained with data to identify the problem/question
+		- New data use the algorithm and they are put to test against the old data 
+		and its meaning
+		- Case study: fraud detectiton
+	- IoT
+		- Case study: smart watch
+	- Deep Learning
+		- Many neurons work together
+		- Requires muro more training data
+		- Used for complex problems, e. g. image classification, language learning
+		- Case study: image detection
+	
+* Data Science Team
+	- Data Engineer
+		- Manage the flow of information
+		- Store and maintain data
+		- Use SQL, Java/Scala/Python
+	- Data Analyst
+		- Describe the present via data.
+		- Visualize and describe data
+		- Use SQL, BI Tools, Spreadsheets
+	- Machine Learning Scientist
+		- Make predictions and extrapolations
+		- Model and predict with data
+		- Use Python and R
+	
+* Data science team structure
+	- Isolated: Each team working on its on. Teams 'Data', 'Engineering' and 'Design & Product'
+	- Embedded: Different teams with all professionals in each team. Squads 1, 2 and 3, each with 
+	Data Engineers, Data Analysts and Machine Learning Scientists
+	- Hybrid: Different squads, as in the enbedded format, but all squads act the same way and interact
+	with the others. They are coordinated.
+	
+* Data Collection
+	- Sources: Web events, Customer data, Logistics data, Financial transactions
+	- PII : Personally Identifiable Information. Data associated to a user
+	
+	- Solicited data: Surveys, customer reviews, in-app questionnaries, focus groups
+		- Stated preferences: When a user describes its preferences
+		- Revealed preferences: When a user acts and do something
+		
+		- Biased questions are only appropriate for marketing collateral
+		- Simple rating is great for quality monitoring.
+		- Comparisons to existing products and gauging interest can help de-risk the decision
+		to introduce a new product.
+		
+		- Net Promoter Score (or NPS): a common metric used to track the success of a product or website.
+		It’s measured by asking a simple question with rates from 0 to 10
+
+	- Collect additional data
+		- Social networks (APIs)
+		- Public Records: Census, IRS data
+		- Mechanical Turk (MTurk): Build a training with identified objects on images by humans.
+		
+* Data storage and retrieval
+	- SQL : Structured Querying Language
+	- NoSQL : Not only SQL
+	
+	- Structured data -> Relational Database
+		- Example: Customer data, email metadata
+	- Unstructured data -> Document Database
+		- Example: Images, email text
+
+* Dashboards
+	- Visualizing data. Help us display information
+	- Spreadsheets: Excel or Google Sheets
+	- BI Tools: Power BI, Tableau, Looker
+	- Customized Tools: R Shiny or d3.js
+
+	- Line chart: Tracking a value over time. Anything reported on a per month, week, or day basis.
+	- Bar chart: Categorical comparison. Comparison between groups, like employees.
+	- Table: displaying information. Displaying a lot of text, like the names of stocks.
+
+	- The CEO and Growth team's requests need to be updated frequently, so they should be dashboards.
+
+* Ad hoc analysis
+	- Ad hoc request: Not repeated on weekly or daily basis
+	- Ticketing systems: Trello, JIRA, Asana.
+		- Tool used to submit ad hoc requests and manage them
+	
+	- Marketing and Legal's requests are for a single piece of analysis, and should be considered ad hoc.
+
+* A/B Testing
+	- Used to compare two scenarios and see its advantages or disavantages
+	- Help us pick between two choices
+	- Steps
+		- Picking a metric to track
+		- Calculating sample size
+		- Running the experiment
+		- Checking for significance
+
+* Supervised Machine Learning
+	- Make predictions from data with labels and features
+		- Label: What we want to predict
+		- Features: Data that might predict the label (gender, age, income)
+	- Data has a specific structure
+	- Examples: Recommendation systems, email subject optimization, churn prediction
+
+* Unsupervised Machine Learning
+	- Has only features
+	- Very useful for clustering/grouping information based os features
+
+* Clustering
+	- Divide data into categories
+	- Is a type of unsupervised machine learning method
+	- Steps
+		- Select features of the dataset
+		- Select the number of clusters
+		- Use clusters to solve business problems
+	
+* Deep Learning
+	- Also called Neural Networks or Neural Nets
+	- Used to solve more complex problems
+	- Needs very large amount of training data
+	- Results in highly accurate predictions
+	- Better for "What?"
+	- Good for images and text
+
+* Explainable AI	
+	- Is understandable by humans
+	- Better for "Why?"
+	- Good for problems where it is helpful to know why the alogrithm chose a particular classification
+	- Case Study
+		- Prediction: What a customer is likely to do
+		- Explanation: Why a customer is likely to do it
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

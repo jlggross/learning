@@ -1,0 +1,200 @@
+3
+00:00:03.080 --> 00:00:07.080
+In this course, we'll unpack the what, why, and how of data science.
+
+4
+00:00:07.080 --> 00:00:13.280
+By the end of this course, you'll have a better grasp of how data is being used around you and how you can use data.
+
+7
+00:00:13.320 --> 00:00:15.000
+If we Google "What is data science?"
+
+8
+00:00:15.000 --> 00:00:18.120
+, we'll see a huge amount of confusing information.
+
+11
+00:00:18.160 --> 00:00:20.200
+But data science is actually simple.
+
+12
+00:00:20.200 --> 00:00:23.240
+It's a set of methodologies for taking in thousands of forms of data
+
+13
+00:00:23.240 --> 00:00:28.400
+that are available to us today, and using them to draw meaningful conclusions.
+
+16
+00:00:28.400 --> 00:00:30.680
+Data is being collected all around us.
+
+17
+00:00:30.680 --> 00:00:33.600
+Every like, click, email, credit card swipe, or
+
+18
+00:00:33.600 --> 00:00:38.320
+tweet is a new piece of data that can be used to better describe the present or better predict the future.
+
+21
+00:00:38.920 --> 00:00:40.000
+So what can data do?
+
+24
+00:00:40.880 --> 00:00:44.880
+Data can describe our current state, like our energy consumption.
+
+25
+00:00:44.880 --> 00:00:50.360
+This can be accomplished with dashboards or alerts, simplifying time-intensive reporting processes.
+
+28
+00:00:51.240 --> 00:00:56.080
+It can help detect anomalous events, such as fraudulent purchases.
+
+29
+00:00:56.080 --> 00:00:58.960
+If we have data on what has happened previously, we can increase
+
+30
+00:00:58.960 --> 00:01:03.360
+efficiency by automatically detecting a new event that is unexpected or abnormal.
+
+33
+00:01:04.760 --> 00:01:12.760
+Data can also diagnose the causes of observed events and behaviors, for instance your activity on Spotify or Netflix.
+
+34
+00:01:12.760 --> 00:01:16.960
+Rather than determining correlations between small numbers of events, data
+
+35
+00:01:16.960 --> 00:01:21.280
+science techniques help us understand complex systems with many possible causes.
+
+38
+00:01:22.400 --> 00:01:28.000
+Finally, data can predict future events, such as forecasting population size.
+
+39
+00:01:28.000 --> 00:01:33.760
+We can use new techniques to take various causes into account and predict potential outcomes.
+
+40
+00:01:33.760 --> 00:01:39.240
+Further, we can evaluate the probability of our prediction mathematically to clarify our level of uncertainty.
+
+43
+00:01:40.880 --> 00:01:42.800
+So now we know what data science is.
+
+46
+00:01:43.800 --> 00:01:46.040
+The next question is why is it so popular?
+
+49
+00:01:46.040 --> 00:01:51.120
+The answer is pretty obvious: we're collecting more data than ever before.
+
+52
+00:01:52.320 --> 00:01:55.480
+Suppose that you visit a car dealership and fill out some information.
+
+55
+00:01:56.680 --> 00:01:59.320
+All of that data is automatically entered into a computer, and
+
+56
+00:01:59.320 --> 00:02:03.440
+combined with the data from hundreds of dealerships into one big database.
+
+59
+00:02:04.720 --> 00:02:08.480
+Once we have that data, it's easy to use the email address that you provided when you
+
+60
+00:02:08.480 --> 00:02:13.360
+bought that car to tie your car purchase data with your data from social media or web browsing.
+
+63
+00:02:13.360 --> 00:02:18.080
+Suddenly, we have a very complete picture about everyone who purchased a car
+
+64
+00:02:18.080 --> 00:02:23.200
+in the last year: their ages, their likes and dislikes, their friends and family.
+
+67
+00:02:23.200 --> 00:02:28.520
+This additional data can be used to predict what price you can pay for your car, what
+
+68
+00:02:28.520 --> 00:02:33.200
+other purchases you're likely to make, or how best to sell you insurance for that new car.
+
+71
+00:02:34.400 --> 00:02:40.440
+Data is everywhere, and it is incredibly valuable information for businesses, organizations, and governments.
+
+74
+00:02:40.440 --> 00:02:43.200
+So, how do we start to use data?
+
+77
+00:02:44.120 --> 00:02:47.240
+In data science, we generally have four steps to any project.
+
+80
+00:02:47.240 --> 00:02:51.520
+First, we collect data from many sources, such as surveys, web
+
+81
+00:02:51.520 --> 00:02:55.880
+traffic results, geo-tagged social media posts, and financial transactions.
+
+82
+00:02:55.880 --> 00:03:00.560
+Once collected, we store that data in a safe and accessible way.
+
+85
+00:03:00.560 --> 00:03:05.480
+At this point, data is in its raw form, so the next step is to prepare data.
+
+86
+00:03:05.480 --> 00:03:10.000
+This includes "cleaning data", for instance finding missing or
+
+87
+00:03:10.000 --> 00:03:13.600
+duplicate values, and converting data into a more organized format.
+
+90
+00:03:13.600 --> 00:03:17.320
+Then, we explore and visualize the cleaned data.
+
+91
+00:03:17.320 --> 00:03:20.800
+This could involve building dashboards to track how the data
+
+92
+00:03:20.800 --> 00:03:24.920
+changes over time or performing comparisons between two sets of data.
+
+95
+00:03:24.920 --> 00:03:29.120
+Finally, we run experiments and predictions on the data.
+
+96
+00:03:29.120 --> 00:03:33.120
+For example, this could involve building a system that forecasts
+
+97
+00:03:33.120 --> 00:03:37.560
+temperature changes or performing a test to find which web page acquires more customers.
+
+100
+00:03:37.560 --> 00:03:43.560
+Now, you know why data science is important and the first four steps in the data science workflow.
+

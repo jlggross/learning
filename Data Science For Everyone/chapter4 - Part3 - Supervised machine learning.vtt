@@ -1,0 +1,414 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.720
+In this video, we'll dive into machine learning!
+
+2
+00:00:04.720 --> 00:00:04.720
+
+
+3
+00:00:04.720 --> 00:00:04.720
+
+
+4
+00:00:04.720 --> 00:00:08.280
+As we learned previously, machine learning is a set of methods for making
+
+5
+00:00:08.280 --> 00:00:14.160
+predictions based on existing data, hence it belongs in the last step of the workflow.
+
+6
+00:00:14.160 --> 00:00:14.160
+
+
+7
+00:00:14.160 --> 00:00:14.280
+
+
+8
+00:00:14.280 --> 00:00:17.160
+Supervised machine learning is a subset of machine learning where
+
+9
+00:00:17.160 --> 00:00:23.160
+the existing data has a specific structure: it has labels and features.
+
+10
+00:00:23.160 --> 00:00:25.560
+More on that later.
+
+11
+00:00:25.560 --> 00:00:25.560
+
+
+12
+00:00:25.560 --> 00:00:25.560
+
+
+13
+00:00:25.560 --> 00:00:30.160
+Examples of its abilities includes recommendation systems, diagnosing
+
+14
+00:00:30.160 --> 00:00:36.640
+biomedical images, recognizing hand-written digits, and predicting customer churn.
+
+15
+00:00:36.640 --> 00:00:36.640
+
+
+16
+00:00:36.640 --> 00:00:36.640
+
+
+17
+00:00:36.640 --> 00:00:40.520
+Let's define these new terms with a case study.
+
+18
+00:00:40.520 --> 00:00:40.520
+
+
+19
+00:00:40.520 --> 00:00:40.520
+
+
+20
+00:00:40.520 --> 00:00:44.040
+Suppose we have a subscription business and want to predict whether a given
+
+21
+00:00:44.040 --> 00:00:50.880
+customer is likely to stay subscribed or cancel their subscription, also known as churn.
+
+22
+00:00:50.880 --> 00:00:50.880
+
+
+23
+00:00:50.880 --> 00:00:50.880
+
+
+24
+00:00:50.880 --> 00:00:54.560
+First, we need some training data to build our model off of.
+
+25
+00:00:54.560 --> 00:00:56.640
+This would be historical customer data.
+
+26
+00:00:56.640 --> 00:00:56.640
+
+
+27
+00:00:56.640 --> 00:00:58.160
+
+
+28
+00:00:58.160 --> 00:01:03.840
+Some of those customers will have maintained their subscription, while others will have churned.
+
+29
+00:01:03.840 --> 00:01:03.840
+
+
+30
+00:01:03.840 --> 00:01:03.840
+
+
+31
+00:01:03.840 --> 00:01:09.400
+We eventually want to be able to predict the label for each customer: churned or subscribed.
+
+32
+00:01:09.400 --> 00:01:09.400
+
+
+33
+00:01:09.400 --> 00:01:10.680
+
+
+34
+00:01:10.680 --> 00:01:13.720
+We'll need features to make this prediction.
+
+35
+00:01:13.720 --> 00:01:18.040
+Features are different pieces of information about each customer that might affect our label.
+
+36
+00:01:18.040 --> 00:01:25.760
+For example, perhaps age, gender, the date of last purchase, or household income will predict cancellations.
+
+37
+00:01:25.760 --> 00:01:25.760
+
+
+38
+00:01:25.760 --> 00:01:26.960
+
+
+39
+00:01:26.960 --> 00:01:31.280
+The magic of machine learning is that we can analyze many features all at once.
+
+40
+00:01:31.280 --> 00:01:31.280
+
+
+41
+00:01:31.280 --> 00:01:32.360
+
+
+42
+00:01:32.360 --> 00:01:36.560
+We use these labels and features to train a model to make predictions on new data.
+
+43
+00:01:36.560 --> 00:01:36.560
+
+
+44
+00:01:36.560 --> 00:01:36.560
+
+
+45
+00:01:36.560 --> 00:01:41.280
+Suppose we have a customer who may or may not churn soon.
+
+46
+00:01:41.280 --> 00:01:46.960
+We can collect feature data on this customer, such as age, or date of last purchase.
+
+47
+00:01:46.960 --> 00:01:46.960
+
+
+48
+00:01:46.960 --> 00:01:46.960
+
+
+49
+00:01:46.960 --> 00:01:49.880
+We can feed this data into our trained model
+
+50
+00:01:49.880 --> 00:01:49.880
+
+
+51
+00:01:49.880 --> 00:01:52.400
+and then, our trained model will give us a prediction.
+
+52
+00:01:52.400 --> 00:01:52.400
+
+
+53
+00:01:52.400 --> 00:01:53.880
+
+
+54
+00:01:53.880 --> 00:01:59.840
+If the customer is not in danger of churning, we can count on their revenue for another month!
+
+55
+00:01:59.840 --> 00:01:59.840
+
+
+56
+00:01:59.840 --> 00:01:59.880
+
+
+57
+00:01:59.880 --> 00:02:04.560
+If they are in danger of churning, we can reach out to them to try to keep them subscribed.
+
+58
+00:02:04.560 --> 00:02:04.560
+
+
+59
+00:02:04.560 --> 00:02:04.560
+
+
+60
+00:02:04.560 --> 00:02:06.560
+Let's recap.
+
+61
+00:02:06.560 --> 00:02:06.560
+
+
+62
+00:02:06.560 --> 00:02:08.080
+
+
+63
+00:02:08.080 --> 00:02:11.160
+Machine learning makes a prediction based on data.
+
+64
+00:02:11.160 --> 00:02:17.720
+In supervised machine learning, that data has two characteristics: features and labels.
+
+65
+00:02:17.720 --> 00:02:20.960
+Labels are what we want to predict, like the customer churning.
+
+66
+00:02:20.960 --> 00:02:27.000
+Features are data that might help predict the label, such as profession or date of last purchase.
+
+67
+00:02:27.000 --> 00:02:27.000
+
+
+68
+00:02:27.000 --> 00:02:27.000
+
+
+69
+00:02:27.000 --> 00:02:34.480
+Once we have the features and labels, we train a model and use it to make predictions on new data.
+
+70
+00:02:34.480 --> 00:02:34.480
+
+
+71
+00:02:34.480 --> 00:02:34.480
+
+
+72
+00:02:34.480 --> 00:02:37.040
+After training a model, how do we know if it's any good?
+
+73
+00:02:37.040 --> 00:02:37.040
+
+
+74
+00:02:37.040 --> 00:02:37.040
+
+
+75
+00:02:37.040 --> 00:02:42.600
+It's always good practice not to allocate all of your historical data for training.
+
+76
+00:02:42.600 --> 00:02:47.560
+Withheld data is called a test set and can be used to evaluate the goodness of the model.
+
+77
+00:02:47.560 --> 00:02:47.560
+
+
+78
+00:02:47.560 --> 00:02:47.560
+
+
+79
+00:02:47.560 --> 00:02:51.240
+In our example, we could ask the model to predict whether a set of
+
+80
+00:02:51.240 --> 00:02:55.080
+customers would churn, and then measure the accuracy of our prediction.
+
+81
+00:02:55.080 --> 00:02:55.080
+
+
+82
+00:02:55.080 --> 00:02:55.080
+
+
+83
+00:02:55.080 --> 00:02:59.720
+For example, let's say we're testing our model on our test set made
+
+84
+00:02:59.720 --> 00:03:03.880
+up of 1000 customers, where only 30 of the customers have actually churned.
+
+85
+00:03:03.880 --> 00:03:03.880
+
+
+86
+00:03:03.880 --> 00:03:03.880
+
+
+87
+00:03:03.880 --> 00:03:09.760
+We put that test data into our newly trained model and it predicts that all the customers remain.
+
+88
+00:03:09.760 --> 00:03:09.760
+
+
+89
+00:03:09.760 --> 00:03:09.760
+
+
+90
+00:03:09.760 --> 00:03:15.640
+If we calculate the overall accuracy of that model, it technically has
+
+91
+00:03:15.640 --> 00:03:22.320
+a high accuracy of 97% because it was correct on 970 of the 1000 customers.
+
+92
+00:03:22.320 --> 00:03:26.880
+This is despite never correctly labeling a customer churning.
+
+93
+00:03:26.880 --> 00:03:26.880
+
+
+94
+00:03:26.880 --> 00:03:26.880
+
+
+95
+00:03:26.880 --> 00:03:31.480
+Checking both outcomes is important for rare events.
+
+96
+00:03:31.480 --> 00:03:36.440
+Only by examining the accuracy of each label do we get 0%
+
+97
+00:03:36.440 --> 00:03:40.000
+accuracy at predicting churn when churn was the actual outcome.
+
+98
+00:03:40.000 --> 00:03:45.080
+This model is not useful to use in its current state, so
+
+99
+00:03:45.080 --> 00:03:48.160
+we'll have to re-train it with different parameters or more data.
+
+100
+00:03:48.160 --> 00:03:48.160
+
+
+101
+00:03:48.160 --> 00:03:48.160
+
+
+102
+00:03:48.160 --> 00:03:54.920
+You learned how supervised learning uses features and labels and how to be cautious with model accuracy.
+
+103
+00:03:54.920 --> 00:03:59.320
+Time for practice!
+

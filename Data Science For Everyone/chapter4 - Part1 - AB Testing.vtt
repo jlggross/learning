@@ -1,0 +1,446 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.480
+Welcome back!
+
+2
+00:00:02.480 --> 00:00:02.480
+
+
+3
+00:00:02.480 --> 00:00:02.480
+
+
+4
+00:00:02.480 --> 00:00:06.400
+This chapter covers the final stage, beginning with experiments.
+
+5
+00:00:06.400 --> 00:00:07.120
+
+
+6
+00:00:07.120 --> 00:00:07.120
+
+
+7
+00:00:07.120 --> 00:00:11.440
+Experiments help drive decisions and draw conclusions.
+
+8
+00:00:11.440 --> 00:00:14.000
+Generally, they begin with a question and a
+
+9
+00:00:14.000 --> 00:00:19.440
+hypothesis, then data collection, followed by a statistical test and its interpretation.
+
+10
+00:00:19.440 --> 00:00:20.640
+
+
+11
+00:00:20.640 --> 00:00:20.640
+
+
+12
+00:00:20.640 --> 00:00:24.480
+For instance, suppose we want to pick the best blog post title.
+
+13
+00:00:24.480 --> 00:00:31.000
+Our question is: does blog title A or blog title B result in more clicks?
+
+14
+00:00:31.000 --> 00:00:35.480
+We make the hypothesis that both blogs will result in the same amount of clicks.
+
+15
+00:00:35.480 --> 00:00:35.480
+
+
+16
+00:00:35.480 --> 00:00:35.480
+
+
+17
+00:00:35.480 --> 00:00:42.960
+To collect data, we randomly divide our audience into two groups, each seeing a different title.
+
+18
+00:00:42.960 --> 00:00:48.720
+We run the experiment until our sample size is reached - more on that later.
+
+19
+00:00:48.720 --> 00:00:48.720
+
+
+20
+00:00:48.720 --> 00:00:48.720
+
+
+21
+00:00:48.720 --> 00:00:56.080
+Then, we use a statistical test to see whether the difference between the titles' click-through rate is significant.
+
+22
+00:00:56.080 --> 00:00:56.080
+
+
+23
+00:00:56.080 --> 00:00:56.080
+
+
+24
+00:00:56.080 --> 00:00:59.080
+Finally, we interpret results.
+
+25
+00:00:59.080 --> 00:01:03.000
+In our case, we want to choose the better performing title.
+
+26
+00:01:03.000 --> 00:01:09.240
+However, often, its inconclusive, leading to more questions and experiments.
+
+27
+00:01:09.240 --> 00:01:09.240
+
+
+28
+00:01:09.240 --> 00:01:09.240
+
+
+29
+00:01:09.240 --> 00:01:11.800
+This is called A/B Testing, often called
+
+30
+00:01:11.800 --> 00:01:18.080
+Champion/Challenger testing, and it's used to make a choice between two options.
+
+31
+00:01:18.080 --> 00:01:18.080
+
+
+32
+00:01:18.080 --> 00:01:18.080
+
+
+33
+00:01:18.080 --> 00:01:20.480
+Sample size is the number of data points used.
+
+34
+00:01:20.480 --> 00:01:20.480
+
+
+35
+00:01:20.480 --> 00:01:21.640
+
+
+36
+00:01:21.640 --> 00:01:25.840
+In data science, you'll hear "Are your results significant?"
+
+37
+00:01:25.840 --> 00:01:25.840
+.
+
+38
+00:01:25.840 --> 00:01:28.920
+A statistically significant result means that your result is
+
+39
+00:01:28.920 --> 00:01:33.520
+probably not due to chance given the statistical assumptions made.
+
+40
+00:01:33.520 --> 00:01:33.520
+
+
+41
+00:01:33.520 --> 00:01:35.080
+
+
+42
+00:01:35.080 --> 00:01:39.120
+Statistical tests help determine this and there are many to choose from.
+
+43
+00:01:39.120 --> 00:01:39.120
+
+
+44
+00:01:39.120 --> 00:01:40.320
+
+
+45
+00:01:40.320 --> 00:01:44.560
+Let's take a closer look at A/B testing.
+
+46
+00:01:44.560 --> 00:01:44.560
+
+
+47
+00:01:44.560 --> 00:01:44.560
+
+
+48
+00:01:44.560 --> 00:01:48.560
+There are four steps in an A/B test: picking a metric to track,
+
+49
+00:01:48.560 --> 00:01:55.000
+calculating sample size, running the experiment, and checking for significance.
+
+50
+00:01:55.000 --> 00:01:57.880
+Let's examine each step.
+
+51
+00:01:57.880 --> 00:01:57.880
+
+
+52
+00:01:57.880 --> 00:01:57.880
+
+
+53
+00:01:57.880 --> 00:02:03.160
+Our metric is click-through rate, the percent of people who click on a link after viewing the title.
+
+54
+00:02:03.160 --> 00:02:03.160
+
+
+55
+00:02:03.160 --> 00:02:03.160
+
+
+56
+00:02:03.160 --> 00:02:07.440
+Next, we'll run the experiment until we reach a sample size
+
+57
+00:02:07.440 --> 00:02:11.160
+large enough to be certain that results aren't due to random chance.
+
+58
+00:02:11.160 --> 00:02:11.160
+
+
+59
+00:02:11.160 --> 00:02:12.760
+
+
+60
+00:02:12.760 --> 00:02:16.920
+The size depends on a "baseline metric" that helps gauge any changes.
+
+61
+00:02:16.920 --> 00:02:22.560
+In our case, it's how often people click on a link to one of our blogs usually.
+
+62
+00:02:22.560 --> 00:02:28.520
+If the rate is much larger or smaller than 50%, then we need a larger sample size.
+
+63
+00:02:28.520 --> 00:02:31.440
+Click-rate is typically under 3%.
+
+64
+00:02:31.440 --> 00:02:31.440
+
+
+65
+00:02:31.440 --> 00:02:31.440
+
+
+66
+00:02:31.440 --> 00:02:36.480
+The sample size depends on the sensitivity we want.
+
+67
+00:02:36.480 --> 00:02:41.280
+A test's sensitivity tells us how small of a change in our metric we can detect.
+
+68
+00:02:41.280 --> 00:02:44.600
+Larger sample sizes allow us to detect smaller changes.
+
+69
+00:02:44.600 --> 00:02:44.600
+
+
+70
+00:02:44.600 --> 00:02:46.160
+
+
+71
+00:02:46.160 --> 00:02:49.360
+You might think that we want a high sensitivity, but we actually
+
+72
+00:02:49.360 --> 00:02:52.160
+want to optimize for an amount that is meaningful for our question.
+
+73
+00:02:52.160 --> 00:02:57.800
+For example, if the first and second title are clicked on by 5% and 5.
+
+74
+00:02:57.800 --> 00:03:00.720
+01% of viewers respectively, an extra .
+
+75
+00:03:00.720 --> 00:03:04.680
+01% clicks to our blog post won't make a difference to us.
+
+76
+00:03:04.680 --> 00:03:04.680
+
+
+77
+00:03:04.680 --> 00:03:04.680
+
+
+78
+00:03:04.680 --> 00:03:09.800
+However, if this was comparing 100m race time, an .
+
+79
+00:03:09.800 --> 00:03:12.120
+01 difference would be significant.
+
+80
+00:03:12.120 --> 00:03:12.120
+
+
+81
+00:03:12.120 --> 00:03:13.520
+
+
+82
+00:03:13.520 --> 00:03:16.360
+We run our experiment until we reach the calculated size.
+
+83
+00:03:16.360 --> 00:03:20.360
+Stopping the experiment before or after could lead to biased results.
+
+84
+00:03:20.360 --> 00:03:20.360
+
+
+85
+00:03:20.360 --> 00:03:20.360
+
+
+86
+00:03:20.360 --> 00:03:24.280
+Once we reach the target size, we check our metric.
+
+87
+00:03:24.280 --> 00:03:28.720
+We see some difference between the titles, but how do we know if it's meaningful?
+
+88
+00:03:28.720 --> 00:03:28.720
+
+
+89
+00:03:28.720 --> 00:03:28.720
+
+
+90
+00:03:28.720 --> 00:03:33.440
+We check by performing a test of statistical significance.
+
+91
+00:03:33.440 --> 00:03:33.440
+
+
+92
+00:03:33.440 --> 00:03:36.680
+If they are significant, we can be reasonably sure that the
+
+93
+00:03:36.680 --> 00:03:40.840
+difference is not due to random chance, but to an actual difference in preference.
+
+94
+00:03:40.840 --> 00:03:40.840
+
+
+95
+00:03:40.840 --> 00:03:40.840
+
+
+96
+00:03:40.840 --> 00:03:43.760
+What if the results aren't significant?
+
+97
+00:03:43.760 --> 00:03:43.760
+
+
+98
+00:03:43.760 --> 00:03:43.760
+
+
+99
+00:03:43.760 --> 00:03:46.920
+If there are any differences in click rates, they're
+
+100
+00:03:46.920 --> 00:03:50.040
+smaller than the threshold we chose when determining the sensitivity.
+
+101
+00:03:50.040 --> 00:03:50.040
+
+
+102
+00:03:50.040 --> 00:03:50.040
+
+
+103
+00:03:50.040 --> 00:03:54.240
+Running our test longer won't help because it'll only detect a
+
+104
+00:03:54.240 --> 00:03:58.120
+smaller difference and we've decided that smaller differences are irrelevant!
+
+105
+00:03:58.120 --> 00:03:58.120
+
+
+106
+00:03:58.120 --> 00:03:58.120
+
+
+107
+00:03:58.120 --> 00:04:02.120
+There still might be a difference in click rates between the
+
+108
+00:04:02.120 --> 00:04:05.880
+titles: but that difference isn't important to us for making decisions.
+
+109
+00:04:05.880 --> 00:04:05.880
+
+
+110
+00:04:05.880 --> 00:04:05.880
+
+
+111
+00:04:05.880 --> 00:04:10.880
+Now, let's practice!
+

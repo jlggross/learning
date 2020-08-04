@@ -1,0 +1,398 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.720
+Great job so far!
+
+2
+00:00:02.720 --> 00:00:07.160
+I'm Hadrien, and I will now tell you about data preparation.
+
+3
+00:00:07.160 --> 00:00:07.160
+
+
+4
+00:00:07.160 --> 00:00:07.160
+
+
+5
+00:00:07.160 --> 00:00:11.200
+Data preparation happens after collecting and storing the data.
+
+6
+00:00:11.200 --> 00:00:12.560
+
+
+7
+00:00:12.560 --> 00:00:12.560
+
+
+8
+00:00:12.560 --> 00:00:15.760
+Data rarely comes in ready for analysis.
+
+9
+00:00:15.760 --> 00:00:18.000
+Real-life data is messy and dirty.
+
+10
+00:00:18.000 --> 00:00:20.080
+It needs to be cleaned.
+
+11
+00:00:20.080 --> 00:00:26.800
+Skipping this step may lead to errors down the way, incorrect results, or throw off your algorithms.
+
+12
+00:00:26.800 --> 00:00:29.640
+You would not use vegetables without cleaning, peeling and
+
+13
+00:00:29.640 --> 00:00:34.520
+dicing them, as your soup would taste weird and no one would eat it.
+
+14
+00:00:34.520 --> 00:00:41.760
+Well, if you don't clean, peel and dice your data, your results will look weird, and no one will use them!
+
+15
+00:00:41.760 --> 00:00:41.760
+
+
+16
+00:00:41.760 --> 00:00:41.760
+
+
+17
+00:00:41.760 --> 00:00:46.520
+Let's take a simple, but dirty, dataset, and clean it together.
+
+18
+00:00:46.520 --> 00:00:49.640
+Maybe you can already notice a few things.
+
+19
+00:00:49.640 --> 00:00:49.640
+
+
+20
+00:00:49.640 --> 00:00:49.640
+
+
+21
+00:00:49.640 --> 00:00:53.320
+One fundamental aspect of cleaning data is "tidiness".
+
+22
+00:00:53.320 --> 00:01:02.360
+Tidy data is a way of presenting a matrix of data, with observations on rows and variables as columns.
+
+23
+00:01:02.360 --> 00:01:04.000
+This is not the case here.
+
+24
+00:01:04.000 --> 00:01:12.160
+Our observations (people) are in columns, and their features are on rows.
+
+25
+00:01:12.160 --> 00:01:12.160
+
+
+26
+00:01:12.160 --> 00:01:12.160
+
+
+27
+00:01:12.160 --> 00:01:13.680
+Let's take care of that.
+
+28
+00:01:13.680 --> 00:01:18.200
+It's easy to do that programmatically with Python or R.
+
+29
+00:01:18.200 --> 00:01:20.760
+They also help with the other cases you're about to see.
+
+30
+00:01:20.760 --> 00:01:20.760
+
+
+31
+00:01:20.760 --> 00:01:22.000
+
+
+32
+00:01:22.000 --> 00:01:24.600
+The data looks much clearer this way.
+
+33
+00:01:24.600 --> 00:01:24.600
+
+
+34
+00:01:24.600 --> 00:01:24.640
+
+
+35
+00:01:24.640 --> 00:01:27.240
+In general, you want to remove duplicates.
+
+36
+00:01:27.240 --> 00:01:30.880
+Python and R make them easy to identify.
+
+37
+00:01:30.880 --> 00:01:33.600
+Here we can see that Lis appears twice.
+
+38
+00:01:33.600 --> 00:01:34.200
+
+
+39
+00:01:34.200 --> 00:01:34.200
+
+
+40
+00:01:34.200 --> 00:01:37.000
+Let's remove the duplicate.
+
+41
+00:01:37.000 --> 00:01:37.000
+
+
+42
+00:01:37.000 --> 00:01:37.000
+
+
+43
+00:01:37.000 --> 00:01:39.760
+What if there's another person called Lis?
+
+44
+00:01:39.760 --> 00:01:43.600
+Then, you want a way to uniquely identify each observation.
+
+45
+00:01:43.600 --> 00:01:47.520
+It can be a combination of features (name plus last name plus year
+
+46
+00:01:47.520 --> 00:01:48.520
+of birth, for example),
+
+47
+00:01:48.520 --> 00:01:48.520
+
+
+48
+00:01:48.520 --> 00:01:52.000
+but the safest way is to assign a unique ID.
+
+49
+00:01:52.000 --> 00:01:55.840
+Sara's ID is now 0, Lis' 1 and Hadrien's 2.
+
+50
+00:01:55.840 --> 00:01:55.840
+
+
+51
+00:01:55.840 --> 00:01:55.840
+
+
+52
+00:01:55.840 --> 00:02:00.000
+Something fishy is going on in the size column.
+
+53
+00:02:00.000 --> 00:02:06.320
+Lis simply can't be that tall (or Hadrien and Sara that small, depending where you're from).
+
+54
+00:02:06.320 --> 00:02:09.600
+Lis is in the US, she inputted her size in feet.
+
+55
+00:02:09.600 --> 00:02:14.400
+Sara and Hadrien are based in Europe, they use the metric system.
+
+56
+00:02:14.400 --> 00:02:16.240
+All variables should use the same standard.
+
+57
+00:02:16.240 --> 00:02:16.240
+
+
+58
+00:02:16.240 --> 00:02:16.240
+
+
+59
+00:02:16.240 --> 00:02:20.000
+Programmatically, you can filter values above 2.
+
+60
+00:02:20.000 --> 00:02:22.360
+5 meters, and apply a division by 3.
+
+61
+00:02:22.360 --> 00:02:25.480
+281 to get the metric value.
+
+62
+00:02:25.480 --> 00:02:25.920
+Here we go.
+
+63
+00:02:25.920 --> 00:02:25.920
+
+
+64
+00:02:25.920 --> 00:02:25.920
+
+
+65
+00:02:25.920 --> 00:02:31.080
+Similarly, countries should follow the same format.
+
+66
+00:02:31.080 --> 00:02:35.120
+The United States and France are abbreviated, but Belgium is written in full.
+
+67
+00:02:35.120 --> 00:02:36.360
+Let's fix that.
+
+68
+00:02:36.360 --> 00:02:36.360
+
+
+69
+00:02:36.360 --> 00:02:36.360
+
+
+70
+00:02:36.360 --> 00:02:38.520
+Looking better already!
+
+71
+00:02:38.520 --> 00:02:39.520
+
+
+72
+00:02:39.520 --> 00:02:39.520
+
+
+73
+00:02:39.520 --> 00:02:42.040
+Another common issue relates to data types.
+
+74
+00:02:42.040 --> 00:02:49.600
+The tools you use might be able to infer data types for each column, but you'd better make sure they are correct.
+
+75
+00:02:49.600 --> 00:02:53.720
+Here, the Age column is encoded as text.
+
+76
+00:02:53.720 --> 00:02:58.680
+If you try to get the mean, you'll get an error, because the average of two words doesn't make sense.
+
+77
+00:02:58.680 --> 00:03:04.280
+You should change the type of this feature to numbers.
+
+78
+00:03:04.280 --> 00:03:04.280
+
+
+79
+00:03:04.280 --> 00:03:04.280
+
+
+80
+00:03:04.280 --> 00:03:07.800
+Ages are now numbers; you can see the quotes have disappeared.
+
+81
+00:03:07.800 --> 00:03:07.800
+
+
+82
+00:03:07.800 --> 00:03:07.800
+
+
+83
+00:03:07.800 --> 00:03:11.680
+Last but not least, missing values.
+
+84
+00:03:11.680 --> 00:03:18.800
+They are common and occur for various reasons: the agent doing the entry was distracted, the person
+
+85
+00:03:18.800 --> 00:03:24.920
+surveyed did not understand the question, or it's on purpose, for example an event that has not happened yet.
+
+86
+00:03:24.920 --> 00:03:24.920
+
+
+87
+00:03:24.920 --> 00:03:24.920
+
+
+88
+00:03:24.920 --> 00:03:28.960
+There are several ways to deal with missing values.
+
+89
+00:03:28.960 --> 00:03:32.760
+You can substitute the exact value if you have access to the source.
+
+90
+00:03:32.760 --> 00:03:40.520
+For example, you can take an aggregate value, like the mean, median or max depending on the situation.
+
+91
+00:03:40.520 --> 00:03:47.720
+You can drop the observation altogether, but each observation you remove means less training data for your model.
+
+92
+00:03:47.720 --> 00:03:53.040
+Or, you can keep it as is and ignore it, if your algorithm allows it.
+
+93
+00:03:53.040 --> 00:03:53.040
+
+
+94
+00:03:53.040 --> 00:03:53.040
+
+
+95
+00:03:53.040 --> 00:03:56.280
+Here, we take the mean, 27.
+
+96
+00:03:56.280 --> 00:04:00.040
+5, and round it up to get 28, which happens to be the correct value.
+
+97
+00:04:00.040 --> 00:04:00.040
+
+
+98
+00:04:00.040 --> 00:04:00.040
+
+
+99
+00:04:00.040 --> 00:04:04.080
+Let's check your understanding!
+

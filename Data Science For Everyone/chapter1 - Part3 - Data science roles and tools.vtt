@@ -1,0 +1,196 @@
+1
+00:00:00.000 --> 00:00:06.200
+In this lesson, you'll learn about the different data roles and the tools they use.
+
+4
+00:00:06.200 --> 00:00:11.360
+You might be surprised to learn that there isn't a single job within data science.
+
+5
+00:00:11.360 --> 00:00:19.360
+Generally, there's four jobs: Data Engineer, Data Analyst, Data Scientist, and Machine Learning Scientist.
+
+11
+00:00:22.520 --> 00:00:28.520
+Data engineers control the flow of data: they build custom data pipelines and storage systems.
+
+12
+00:00:28.520 --> 00:00:34.920
+They design infrastructure so that data is not only collected, but easy to obtain and process.
+
+13
+00:00:34.920 --> 00:00:40.240
+Within the data science workflow, they focus on the first stage: data collection and storage.
+
+16
+00:00:41.640 --> 00:00:47.680
+Data engineers are proficient in SQL, which they use to store and organize data.
+
+17
+00:00:47.680 --> 00:00:54.640
+They also use one of the following programming languages like Java, Scala, or Python to process data.
+
+18
+00:00:54.640 --> 00:00:59.080
+They use Shell on the command line to automate and run tasks.
+
+19
+00:00:59.080 --> 00:01:02.560
+Finally, data engineers, now more than ever, need to be
+
+20
+00:01:02.560 --> 00:01:06.440
+comfortable with cloud computing to ingest and store large amounts of data.
+
+23
+00:01:07.680 --> 00:01:10.520
+Data analysts describe the present via data.
+
+24
+00:01:10.520 --> 00:01:14.680
+They do this by exploring the data and creating visualizations and dashboards.
+
+25
+00:01:14.680 --> 00:01:19.720
+To do these tasks, they often have to clean data first.
+
+26
+00:01:19.720 --> 00:01:23.880
+Analysts have less programming and stats experience than the other roles.
+
+29
+00:01:24.840 --> 00:01:31.160
+Within the workflow, they focus on the middle two stages: data preparation and exploration and visualization.
+
+32
+00:01:32.320 --> 00:01:38.320
+Data analysts use SQL, the same language used by data engineers, to query data.
+
+33
+00:01:38.320 --> 00:01:40.720
+While data engineers build and configure SQL
+
+34
+00:01:40.720 --> 00:01:49.000
+storage solutions, analysts use existing databases to retrieve and aggregate data relevant to their analysis.
+
+37
+00:01:49.000 --> 00:01:55.200
+Data analysts use spreadsheets to perform simple analyses on small quantities of data.
+
+40
+00:01:55.240 --> 00:01:59.160
+Analysts also use Business Intelligence, or BI Tools, such as
+
+41
+00:01:59.160 --> 00:02:04.680
+Tableau, Power BI, or Looker, to create dashboards and share their analyses.
+
+44
+00:02:06.000 --> 00:02:12.600
+More advanced data analysts may be comfortable with Python or R for cleaning and analyzing data.
+
+47
+00:02:12.600 --> 00:02:16.160
+Data Scientists have a strong background in statistics, enabling
+
+48
+00:02:16.160 --> 00:02:19.960
+them to find new insights from data, rather than solely describing data.
+
+49
+00:02:19.960 --> 00:02:24.600
+They also use traditional machine learning for prediction and forecasting.
+
+52
+00:02:24.600 --> 00:02:29.680
+Within the workflow, they focus on the last three stages: data
+
+53
+00:02:29.680 --> 00:02:34.920
+preparation and exploration and visualization, and experimentation and prediction.
+
+56
+00:02:36.200 --> 00:02:39.840
+Similar to analysts, data scientists have strong skills in SQL.
+
+57
+00:02:39.840 --> 00:02:44.320
+Data scientists must be proficient in at least Python on R.
+
+58
+00:02:44.320 --> 00:02:50.520
+Within these languages, they use popular data science libraries, such as pandas or tidyverse.
+
+59
+00:02:50.520 --> 00:02:55.400
+These libraries contain reusable code for common data science tasks.
+
+62
+00:02:56.600 --> 00:03:01.520
+Machine learning scientists are similar to data scientists, but with a machine learning specialization.
+
+65
+00:03:02.800 --> 00:03:06.240
+Machine learning is perhaps the buzziest part of Data Science; it's
+
+66
+00:03:06.240 --> 00:03:10.000
+used to extrapolate what's likely to be true from what we already know.
+
+67
+00:03:10.000 --> 00:03:15.480
+These scientists use training data to classify larger, unrulier data,
+
+68
+00:03:15.480 --> 00:03:19.840
+whether its to classify images that contain a car, or create a chatbot.
+
+69
+00:03:19.840 --> 00:03:24.080
+They go beyond traditional machine learning with deep learning.
+
+72
+00:03:24.080 --> 00:03:29.880
+Within the workflow, they do the last three stages with a strong focus on prediction.
+
+75
+00:03:29.880 --> 00:03:36.120
+Machine learning scientists use either Python or R to create their predictive models.
+
+77
+00:03:36.120 --> 00:03:39.800
+Within these languages, they use popular machine learning
+
+78
+00:03:39.800 --> 00:03:44.200
+libraries, such as TensorFlow, to run powerful deep learning algorithms.
+
+81
+00:03:44.200 --> 00:03:47.520
+Here's a slide to recap what we've covered.
+
+84
+00:03:48.760 --> 00:03:51.080
+It may be intimidating to see all these tools and
+
+85
+00:03:51.080 --> 00:03:55.920
+languages, but they aren't as difficult to learn as spoken languages.
+
+86
+00:03:55.920 --> 00:03:59.000
+If you know English, it may take you years to learn French.
+
+87
+00:03:59.000 --> 00:04:03.280
+Programming languages are more similar to power tools.
+
+88
+00:04:03.280 --> 00:04:06.480
+If you know how to use a power drill, you don't necessarily know
+
+89
+00:04:06.480 --> 00:04:09.840
+how to use an electric saw, but you can learn with a little training!
+

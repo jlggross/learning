@@ -1,0 +1,430 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.120
+Great job so far.
+
+2
+00:00:02.120 --> 00:00:07.200
+Now, we'll learn about modeling and time series forecasting.
+
+3
+00:00:07.200 --> 00:00:07.200
+
+
+4
+00:00:07.200 --> 00:00:07.200
+
+
+5
+00:00:07.200 --> 00:00:11.960
+Data scientists and machine learning scientists spend a lot of time building models.
+
+6
+00:00:11.960 --> 00:00:16.560
+Models attempt to represent a real-world process with statistics.
+
+7
+00:00:16.560 --> 00:00:21.960
+At a high level, models define relationships between variables with equations.
+
+8
+00:00:21.960 --> 00:00:25.960
+These definitions are based on statistical assumptions and historical data.
+
+9
+00:00:25.960 --> 00:00:25.960
+
+
+10
+00:00:25.960 --> 00:00:27.200
+
+
+11
+00:00:27.200 --> 00:00:31.440
+Predictive modeling is a sub-category of modeling used for prediction.
+
+12
+00:00:31.440 --> 00:00:37.080
+By modeling a process, we can enter new inputs and see what outcome it outputs.
+
+13
+00:00:37.080 --> 00:00:37.080
+
+
+14
+00:00:37.080 --> 00:00:37.080
+
+
+15
+00:00:37.080 --> 00:00:40.200
+For instance, you can enter a future date in a model of unemployment
+
+16
+00:00:40.200 --> 00:00:45.760
+rate to get a prediction of what the unemployment rate will be next month.
+
+17
+00:00:45.760 --> 00:00:45.760
+
+
+18
+00:00:45.760 --> 00:00:45.760
+
+
+19
+00:00:45.760 --> 00:00:51.000
+The output can be the probability of an outcome, for example, the probability that a tweet is fake.
+
+20
+00:00:51.000 --> 00:00:51.000
+
+
+21
+00:00:51.000 --> 00:00:51.000
+
+
+22
+00:00:51.000 --> 00:00:55.920
+Predictive models can be as simple as a linear equation with an x and
+
+23
+00:00:55.920 --> 00:01:01.560
+y variable to a deep learning algorithm that is uninterpretable by humans.
+
+24
+00:01:01.560 --> 00:01:01.560
+
+
+25
+00:01:01.560 --> 00:01:01.600
+
+
+26
+00:01:01.600 --> 00:01:04.680
+Let's look at using predictive modeling on time series data.
+
+27
+00:01:04.680 --> 00:01:04.680
+
+
+28
+00:01:04.680 --> 00:01:04.680
+
+
+29
+00:01:04.680 --> 00:01:09.880
+Time series is a series of data points sequenced by time.
+
+30
+00:01:09.880 --> 00:01:09.880
+
+
+31
+00:01:09.880 --> 00:01:10.960
+
+
+32
+00:01:10.960 --> 00:01:15.480
+Examples include daily stock and gas prices over the years.
+
+33
+00:01:15.480 --> 00:01:23.080
+Often times, it's in the forms of rates, such monthly unemployment rates or a patient's heart rate during surgery.
+
+34
+00:01:23.080 --> 00:01:30.400
+They can be measurements like CO2 levels or the height of tides recorded regularly over a time period.
+
+35
+00:01:30.400 --> 00:01:30.400
+
+
+36
+00:01:30.400 --> 00:01:30.440
+
+
+37
+00:01:30.440 --> 00:01:32.240
+Let's plot an example.
+
+38
+00:01:32.240 --> 00:01:38.520
+We have time series data of Canadian unemployment rates measured monthly from 1976 to 2015.
+
+39
+00:01:38.520 --> 00:01:46.880
+Time series data is usually plotted as a line graph like this, with time on the x-axis.
+
+40
+00:01:46.880 --> 00:01:46.880
+
+
+41
+00:01:46.880 --> 00:01:46.880
+
+
+42
+00:01:46.880 --> 00:01:50.520
+Often times when plotting time series, you can find patterns.
+
+43
+00:01:50.520 --> 00:01:50.520
+
+
+44
+00:01:50.520 --> 00:01:51.360
+
+
+45
+00:01:51.360 --> 00:01:56.480
+For example, this plot graphs the average temperature in Boston over three years.
+
+46
+00:01:56.480 --> 00:01:56.480
+
+
+47
+00:01:56.480 --> 00:01:56.480
+
+
+48
+00:01:56.480 --> 00:01:59.480
+Can you figure out the pattern here?
+
+49
+00:01:59.480 --> 00:01:59.480
+
+
+50
+00:01:59.480 --> 00:02:00.760
+
+
+51
+00:02:00.760 --> 00:02:05.920
+The line peaks during summer months and reaches its lowest during winter months.
+
+52
+00:02:05.920 --> 00:02:10.560
+If we graphed ice cream sales, we'd see a similar pattern.
+
+53
+00:02:10.560 --> 00:02:10.560
+
+
+54
+00:02:10.560 --> 00:02:10.560
+
+
+55
+00:02:10.560 --> 00:02:12.520
+This is called seasonality.
+
+56
+00:02:12.520 --> 00:02:17.160
+Seasonality is when there are repeating patterns related to time such as months and weeks.
+
+57
+00:02:17.160 --> 00:02:17.160
+
+
+58
+00:02:17.160 --> 00:02:22.440
+Another example is spending spikes at the end of the month when people receive a paycheck.
+
+59
+00:02:22.440 --> 00:02:22.440
+
+
+60
+00:02:22.440 --> 00:02:22.440
+
+
+61
+00:02:22.440 --> 00:02:29.480
+Time series data is used in predictive modeling to predict metrics at future dates.
+
+62
+00:02:29.480 --> 00:02:32.320
+We call this forecasting.
+
+63
+00:02:32.320 --> 00:02:32.320
+
+
+64
+00:02:32.320 --> 00:02:34.520
+For example, predicting rainfall next month or
+
+65
+00:02:34.520 --> 00:02:40.240
+the state of traffic and the stock market in a couple of hours to what the population will be in 20 years.
+
+66
+00:02:40.240 --> 00:02:40.240
+
+
+67
+00:02:40.240 --> 00:02:41.680
+
+
+68
+00:02:41.680 --> 00:02:48.600
+We can build predictive models using time series data from the past years or decades to generate predictions.
+
+69
+00:02:48.600 --> 00:02:52.080
+This uses a combination of statistical and machine learning methods.
+
+70
+00:02:52.080 --> 00:02:52.080
+
+
+71
+00:02:52.080 --> 00:02:52.080
+
+
+72
+00:02:52.080 --> 00:02:54.840
+Let's look at an example.
+
+73
+00:02:54.840 --> 00:02:54.840
+
+
+74
+00:02:54.840 --> 00:02:54.840
+
+
+75
+00:02:54.840 --> 00:03:00.200
+The United Nation provides open data on global food prices.
+
+76
+00:03:00.200 --> 00:03:05.800
+Here we have the price of peas in Rwandan Francs from 2011 and 2016.
+
+77
+00:03:05.800 --> 00:03:05.800
+
+
+78
+00:03:05.800 --> 00:03:05.800
+
+
+79
+00:03:05.800 --> 00:03:09.600
+There's some seasonality here, can you spot it?
+
+80
+00:03:09.600 --> 00:03:09.600
+
+
+81
+00:03:09.600 --> 00:03:09.600
+
+
+82
+00:03:09.600 --> 00:03:14.680
+Prices are lowest around December and January, but peak around August.
+
+83
+00:03:14.680 --> 00:03:17.320
+Some years show a second peak around April .
+
+84
+00:03:17.320 --> 00:03:21.200
+There seems to be a general increase in pea prices annually.
+
+85
+00:03:21.200 --> 00:03:21.200
+
+
+86
+00:03:21.200 --> 00:03:21.200
+
+
+87
+00:03:21.200 --> 00:03:26.880
+Can we forecast what will happen with consideration to this seasonality and price increase?
+
+88
+00:03:26.880 --> 00:03:26.880
+
+
+89
+00:03:26.880 --> 00:03:26.880
+
+
+90
+00:03:26.880 --> 00:03:30.200
+Here is the forecast of a predictive model.
+
+91
+00:03:30.200 --> 00:03:32.760
+The blue line depicts the forecast.
+
+92
+00:03:32.760 --> 00:03:40.040
+The seasonality remains and it anticipates a continued increase of pea prices, seen by the higher peaks and lows.
+
+93
+00:03:40.040 --> 00:03:40.040
+
+
+94
+00:03:40.040 --> 00:03:40.040
+
+
+95
+00:03:40.040 --> 00:03:44.520
+There are also two blue areas shown along the forecast.
+
+96
+00:03:44.520 --> 00:03:50.640
+These are confidence intervals, which are extremely useful for evaluating predictions.
+
+97
+00:03:50.640 --> 00:03:50.640
+
+
+98
+00:03:50.640 --> 00:03:50.640
+
+
+99
+00:03:50.640 --> 00:03:56.600
+We see two confidence intervals: 80% and 95%.
+
+100
+00:03:56.600 --> 00:04:03.000
+The model is 80% sure that the true value will be in the area labeled as 80.
+
+101
+00:04:03.000 --> 00:04:06.560
+Same goes with the area labeled as 95.
+
+102
+00:04:06.560 --> 00:04:06.560
+
+
+103
+00:04:06.560 --> 00:04:06.560
+
+
+104
+00:04:06.560 --> 00:04:14.760
+If we're using this forecast to make big decisions, confidence intervals can help us buffer for the unexpected.
+
+105
+00:04:14.760 --> 00:04:14.760
+
+
+106
+00:04:14.760 --> 00:04:14.760
+
+
+107
+00:04:14.760 --> 00:04:20.400
+Ok, it's time for some exercises!
+

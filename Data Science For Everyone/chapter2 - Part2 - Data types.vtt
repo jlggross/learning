@@ -1,0 +1,358 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.680
+You now know where to collect data.
+
+2
+00:00:03.680 --> 00:00:06.000
+But what does that data look like?
+
+3
+00:00:06.000 --> 00:00:10.200
+In this video we'll talk about the different types of data.
+
+4
+00:00:10.200 --> 00:00:10.200
+
+
+5
+00:00:10.200 --> 00:00:10.200
+
+
+6
+00:00:10.200 --> 00:00:14.920
+You might wonder why it's important to know what type of data you have collected.
+
+7
+00:00:14.920 --> 00:00:18.240
+This will be essential later on in the data science process.
+
+8
+00:00:18.240 --> 00:00:19.000
+
+
+9
+00:00:19.000 --> 00:00:19.000
+
+
+10
+00:00:19.000 --> 00:00:22.000
+For instance, it's especially relevant when you want
+
+11
+00:00:22.000 --> 00:00:30.240
+to store the data, which we'll talk about in the next video as not all types of data can be stored in the same place.
+
+12
+00:00:30.240 --> 00:00:30.280
+
+
+13
+00:00:30.280 --> 00:00:30.280
+
+
+14
+00:00:30.280 --> 00:00:34.280
+Furthermore, when you're visualizing or analyzing the data
+
+15
+00:00:34.280 --> 00:00:38.200
+it's important to know the type of data you are dealing with.
+
+16
+00:00:38.200 --> 00:00:42.880
+Not all visualizations or analyses can be performed with all data types.
+
+17
+00:00:42.880 --> 00:00:43.640
+
+
+18
+00:00:43.640 --> 00:00:43.640
+
+
+19
+00:00:43.640 --> 00:00:46.640
+So, let's dive in.
+
+20
+00:00:46.640 --> 00:00:46.640
+
+
+21
+00:00:46.640 --> 00:00:46.640
+
+
+22
+00:00:46.640 --> 00:00:52.000
+There are two general types of data: qualitative and quantitative data.
+
+23
+00:00:52.000 --> 00:00:55.080
+It’s important to understand the key differences between both.
+
+24
+00:00:55.080 --> 00:00:55.080
+
+
+25
+00:00:55.080 --> 00:00:55.080
+
+
+26
+00:00:55.080 --> 00:01:00.720
+Quantitative data can be counted, measured, and expressed using numbers.
+
+27
+00:01:00.720 --> 00:01:04.320
+Qualitative data is descriptive and conceptual.
+
+28
+00:01:04.320 --> 00:01:08.680
+Qualitative data can be observed but not measured.
+
+29
+00:01:08.680 --> 00:01:08.680
+
+
+30
+00:01:08.680 --> 00:01:10.080
+
+
+31
+00:01:10.080 --> 00:01:15.200
+Now that we know the differences, let’s dive into each type of data with a real-world example.
+
+32
+00:01:15.200 --> 00:01:15.200
+
+
+33
+00:01:15.200 --> 00:01:15.200
+
+
+34
+00:01:15.200 --> 00:01:19.920
+Quantitative data can be expressed in numbers.
+
+35
+00:01:19.920 --> 00:01:26.760
+For example, the fridge is 60 inches tall, has two apples in it, and costs 1000 dollars.
+
+36
+00:01:26.760 --> 00:01:26.760
+
+
+37
+00:01:26.760 --> 00:01:26.760
+
+
+38
+00:01:26.760 --> 00:01:34.000
+Qualitative data, on the other hand, are things that can be observed but not measured like:
+
+39
+00:01:34.000 --> 00:01:41.560
+the fridge is red, was built in Italy, and might need to be cleaned out because it smells like fish.
+
+40
+00:01:41.560 --> 00:01:41.560
+
+
+41
+00:01:41.560 --> 00:01:41.560
+
+
+42
+00:01:41.560 --> 00:01:44.920
+Other than the traditional quantitative and qualitative data,
+
+43
+00:01:44.920 --> 00:01:49.800
+there are many other data types that are becoming more and more important.
+
+44
+00:01:49.800 --> 00:01:56.360
+There is image data, text data, geospatial data, network data, and many more.
+
+45
+00:01:56.360 --> 00:01:56.360
+
+
+46
+00:01:56.360 --> 00:01:56.360
+
+
+47
+00:01:56.360 --> 00:02:03.320
+Note that these other data types aren't mutually exclusive with quantitative and qualitative data.
+
+48
+00:02:03.320 --> 00:02:08.720
+Meaning often these other data types are a special mix of quantitative and qualitative data.
+
+49
+00:02:08.720 --> 00:02:08.720
+
+
+50
+00:02:08.720 --> 00:02:09.840
+
+
+51
+00:02:09.840 --> 00:02:11.320
+Let's look at some examples.
+
+52
+00:02:11.320 --> 00:02:11.320
+
+
+53
+00:02:11.320 --> 00:02:12.760
+
+
+54
+00:02:12.760 --> 00:02:15.440
+Digital images are everywhere.
+
+55
+00:02:15.440 --> 00:02:17.800
+An image is made up of pixels.
+
+56
+00:02:17.800 --> 00:02:21.200
+These pixels contain information about color and intensity.
+
+57
+00:02:21.200 --> 00:02:25.080
+Typically, the pixels are stored in computer memory.
+
+58
+00:02:25.080 --> 00:02:30.480
+In the example you can see that if we zoom in on the image we can distinguish the different pixels.
+
+59
+00:02:30.480 --> 00:02:30.480
+
+
+60
+00:02:30.480 --> 00:02:30.480
+
+
+61
+00:02:30.480 --> 00:02:37.560
+Emails, documents, reviews, social media posts, and so on.
+
+62
+00:02:37.560 --> 00:02:41.120
+As you can imagine, text data can be found in many places.
+
+63
+00:02:41.120 --> 00:02:46.480
+This data can be stored and analyzed to find relevant insights.
+
+64
+00:02:46.480 --> 00:02:49.480
+On the slide, you can see an example of a restaurant review.
+
+65
+00:02:49.480 --> 00:02:51.040
+
+
+66
+00:02:51.040 --> 00:02:51.040
+
+
+67
+00:02:51.040 --> 00:02:55.400
+Geospatial data are data with location information.
+
+68
+00:02:55.400 --> 00:03:01.080
+In the example you can see that many different types of information can be captured using geospatial data.
+
+69
+00:03:01.080 --> 00:03:07.640
+For a specific region we can keep track of where the roads, the buildings, and vegetation are.
+
+70
+00:03:07.640 --> 00:03:12.800
+This is especially useful for navigation apps like Waze and Google maps.
+
+71
+00:03:12.800 --> 00:03:12.800
+
+
+72
+00:03:12.800 --> 00:03:12.800
+
+
+73
+00:03:12.800 --> 00:03:17.240
+Network data consists of the people or things in a
+
+74
+00:03:17.240 --> 00:03:24.000
+network, depicted by circles on the slide, and the relationships between them, depicted by lines on the slide.
+
+75
+00:03:24.000 --> 00:03:27.960
+Here you can see an example of a social network.
+
+76
+00:03:27.960 --> 00:03:30.120
+You can easily see who knows whom.
+
+77
+00:03:30.120 --> 00:03:32.320
+
+
+78
+00:03:32.320 --> 00:03:32.320
+
+
+79
+00:03:32.320 --> 00:03:36.440
+In this video we looked at the most common data types: quantitative
+
+80
+00:03:36.440 --> 00:03:43.280
+data, qualitative data, image data, text data, geospatial data, and network data.
+
+81
+00:03:43.280 --> 00:03:43.280
+
+
+82
+00:03:43.280 --> 00:03:43.280
+
+
+83
+00:03:43.280 --> 00:03:47.560
+These can all serve as inputs for your data science analysis.
+
+84
+00:03:47.560 --> 00:03:50.640
+But before doing that, the data needs to be stored.
+
+85
+00:03:50.640 --> 00:03:52.680
+That's what we'll cover in the next video.
+
+86
+00:03:52.680 --> 00:03:52.680
+
+
+87
+00:03:52.680 --> 00:03:52.680
+
+
+88
+00:03:52.680 --> 00:03:57.360
+But first, let's see if you know the difference between the different types of data.
+
+89
+00:03:57.360 --> 00:04:01.320
+Let's practice!
+
