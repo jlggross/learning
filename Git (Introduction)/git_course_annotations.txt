@@ -1,0 +1,183 @@
+Git Course
+
+---------------------------------------------------------------
+General notes
+---------------------------------------------------------------
+* repository : files + directories
+* git info : stored in .git file. Stored in the root folder
+
+---------------------------------------------------------------
+Commands
+---------------------------------------------------------------
+* git status
+	- Show status of repository.
+	- Show modified files in the staging area (not committed files)
+
+* git diff
+	- Show differences in the repository.
+	- When a file is change, is possible to see that the file has been changed.
+* git diff directory
+	- Show the differences in the directory.
+* git diff -r HEAD
+	- HEAD is the most recent commit
+	- '-r' is a flag to compare to a particular revision
+	- Compares my files with the files in the staging area
+	- Compares all file sin the repository
+* git diff -r HEAD path/to/file
+	- Compares a specfic directory or file
+* git diff HEAD~1..HEAD~2
+	- Show differences between the two commits before the last one
+
+* git add filename
+	- Add file to staging area.
+*git reset
+	- Remove all files and directories from the staging area.
+* git reset HEAD
+	- Used to unstage the additions of files and directories to the HEAD
+* git reset HEAD path/to/file
+	- Unstage the corresponding file from the repository
+* git reset HEAD directory
+	- Instage all files from a certain directory
+
+* git checkout -- filename
+	- Discard the changes made to a particular unstaged file. When used the
+	changes made to the file are overwritten 
+	- 'checkout' is used to load the files
+* git checkout -- .
+	- Restore all files in or below the current directory
+	- Discard all changes in the repository
+* git checkout 2242bd report.txt
+	- Loads the 'report.txt' file included in the commit with hash 2242bd...
+
+
+* git commit -m "Commit message"
+	- Commits all the information in the staging area. It is the equivalent to save 
+	your work in the repository.
+	- '-m' flag to insert message in the commit
+* git commit --amend -m "new message"
+	- '--amend' flag to change commit message
+* git commit 
+	- Without '-m' flag opens a text editor to insert longers commit messages
+
+	
+* git log
+	- Shows commit log history
+	- 'space bar' to go down on the records and 'q' to quit 
+* git log path
+	- Shows specific file/directory history
+* git log -3 report.txt
+	- Shows the last 3 commits involving 'report.txt'
+* git show hash-part
+	- Show the specfic commit that has the hash informed.
+	- Just the beginning of the hash must be informed. 
+* git show HEAD~1
+	- HEAD~1 refers to the first commit before the last one.
+	- HEAD~2 refers to the second commit before the last one.
+* git annotate filename
+	- Shows who made the last change to each line of the file.
+
+* git clean -n
+	- Show a list of files that are in the repository, but are not tracked by Git.
+* git clean -f
+	- Remove the untracked files by Git
+
+* git config --global setting value
+	- Used to set configuration values in the system.
+	- 'setting' is the variable to be set
+	- 'value' is the value to set
+* git config --global user.name 'João'
+* git config --global user.email 'joaolggross@mgail.com'
+
+* git rm filename
+	- Delete file and removes from the staging area
+
+---------------------------------------------------------------
+New repository, push and pull repository information
+---------------------------------------------------------------
+
+* git init project-name
+	- Create new repository
+	- 'project-name' is the name of the root folder
+* git init
+	- If the repository is already created, run 'git init' 
+	inside the project's root directory
+* git init path/to/project
+	- Creates new repository or turns existing project into a 
+	git repository
+
+* git clone URL
+	- Clones an existing Git repository to the local folder
+* git clone path/to/existing/repository
+	- Clones the repository in the informed path
+* git clone path/to/existing/repository newprojectname
+	- Clones repository but put another name to the new repository
+
+* git remote
+	- Tells the origin of the repository
+* git remote -v
+	- Tell the origin of the repository with more information
+	- Show the repository name
+
+* git push remote-name branch-name
+	- Push (send) information to the remote repository
+* git pull remote-repository-name branch-name
+	- Pull (get) new information from the remote repository in the specified branch
+
+
+---------------------------------------------------------------
+File editores
+---------------------------------------------------------------
+* nano filename
+	- Ctrl-K: delete a line.
+	- Ctrl-U: un-delete a line.
+	- Ctrl-O: save the file ('O' stands for 'output').
+	- Ctrl-X: exit the editor.
+	
+---------------------------------------------------------------
+Ignore files
+---------------------------------------------------------------
+* .gitignore
+	- Has the files that the git software must ignore.
+	- These files won't be tracked by the git software as uncommited files.
+	
+.gitignore : Content example
+
+	build
+	*.mpl
+
+File or directory named "build" and files with .mpl extension will be ignored.
+
+---------------------------------------------------------------
+Branches
+---------------------------------------------------------------
+Git data-structure
+* Blobs: for files
+* Trees: for saved states of repositories
+* Commits: to ecord the changes
+
+Notes
+* Every git repository has a 'master' branch	
+* After a merge has failed using 'git status' tells which file
+had conflicts and must be changed
+
+Commands
+* git branch
+	- Shows all git branchs.
+	- The current branch is marked with '*'
+* git diff branc1..branch2
+	- Show differences between branches
+* git checkout branch-name
+	- Switch to the informed branch
+* git checkout -b branch-name
+	- Create new branch and switch to the new branch
+* git merge source destination
+	- Merge branches 'source' and 'destination'
+
+
+
+
+
+
+
+
+
