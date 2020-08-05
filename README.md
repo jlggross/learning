@@ -1,4 +1,4 @@
-# learning
+# learning [TODO / outdated]
 
 ## Summary
 Not and actual project. This repository keep track of learning files from my studies to become a professional Data Scientist.
