@@ -1,0 +1,396 @@
+,G3,study_time,location,internet,famrel,absences,romantic,school
+0,6,2 to 5 hours,Urban,no,4,6,no,GP
+1,6,2 to 5 hours,Urban,yes,5,4,no,GP
+2,10,2 to 5 hours,Urban,yes,4,10,no,GP
+3,15,5 to 10 hours,Urban,yes,3,2,yes,GP
+4,10,2 to 5 hours,Urban,no,4,4,no,GP
+5,15,2 to 5 hours,Urban,yes,5,10,no,GP
+6,11,2 to 5 hours,Urban,yes,4,0,no,GP
+7,6,2 to 5 hours,Urban,no,4,6,no,GP
+8,19,2 to 5 hours,Urban,yes,4,0,no,GP
+9,15,2 to 5 hours,Urban,yes,5,0,no,GP
+10,9,2 to 5 hours,Urban,yes,3,0,no,GP
+11,12,5 to 10 hours,Urban,yes,5,4,no,GP
+12,14,<2 hours,Urban,yes,4,2,no,GP
+13,11,2 to 5 hours,Urban,yes,5,2,no,GP
+14,16,5 to 10 hours,Urban,yes,4,0,yes,GP
+15,14,<2 hours,Urban,yes,4,4,no,GP
+16,14,5 to 10 hours,Urban,yes,3,6,no,GP
+17,10,2 to 5 hours,Urban,no,5,4,no,GP
+18,5,<2 hours,Urban,yes,5,16,no,GP
+19,10,<2 hours,Urban,yes,3,4,no,GP
+20,15,2 to 5 hours,Urban,yes,4,0,no,GP
+21,15,<2 hours,Urban,yes,5,0,no,GP
+22,16,2 to 5 hours,Urban,yes,4,2,no,GP
+23,12,2 to 5 hours,Urban,yes,5,0,no,GP
+24,8,5 to 10 hours,Rural,yes,4,2,no,GP
+25,8,<2 hours,Urban,yes,1,14,no,GP
+26,11,<2 hours,Urban,yes,4,2,no,GP
+27,15,<2 hours,Urban,yes,2,4,no,GP
+28,11,2 to 5 hours,Urban,yes,5,4,no,GP
+29,11,2 to 5 hours,Urban,yes,4,16,yes,GP
+30,12,2 to 5 hours,Urban,yes,5,0,no,GP
+31,17,2 to 5 hours,Urban,yes,4,0,no,GP
+32,16,2 to 5 hours,Rural,yes,4,0,yes,GP
+33,12,2 to 5 hours,Urban,yes,5,0,no,GP
+34,15,<2 hours,Urban,yes,5,0,no,GP
+35,6,<2 hours,Urban,no,3,0,no,GP
+36,18,5 to 10 hours,Urban,yes,5,2,no,GP
+37,15,5 to 10 hours,Rural,yes,2,7,yes,GP
+38,11,5 to 10 hours,Rural,yes,4,2,no,GP
+39,13,<2 hours,Rural,no,4,8,no,GP
+40,11,2 to 5 hours,Urban,yes,3,25,yes,GP
+41,12,<2 hours,Urban,yes,5,8,yes,GP
+42,18,2 to 5 hours,Urban,yes,4,2,no,GP
+43,11,<2 hours,Urban,yes,5,0,no,GP
+44,9,2 to 5 hours,Urban,yes,4,14,no,GP
+45,6,2 to 5 hours,Urban,yes,5,8,yes,GP
+46,11,2 to 5 hours,Urban,yes,2,12,no,GP
+47,20,>10 hours,Urban,yes,4,4,no,GP
+48,14,2 to 5 hours,Urban,no,4,2,no,GP
+49,7,2 to 5 hours,Urban,yes,4,2,no,GP
+50,13,2 to 5 hours,Urban,yes,4,2,no,GP
+51,13,2 to 5 hours,Urban,yes,4,2,no,GP
+52,10,<2 hours,Urban,no,5,6,no,GP
+53,11,<2 hours,Urban,yes,3,0,no,GP
+54,13,<2 hours,Urban,yes,5,6,no,GP
+55,10,2 to 5 hours,Urban,yes,5,8,yes,GP
+56,15,2 to 5 hours,Urban,yes,4,0,no,GP
+57,15,2 to 5 hours,Urban,no,3,4,no,GP
+58,9,2 to 5 hours,Urban,yes,4,2,no,GP
+59,16,2 to 5 hours,Urban,yes,4,2,no,GP
+60,11,2 to 5 hours,Rural,no,2,6,no,GP
+61,11,<2 hours,Urban,yes,5,6,yes,GP
+62,9,2 to 5 hours,Urban,yes,4,4,no,GP
+63,9,5 to 10 hours,Urban,yes,3,2,no,GP
+64,10,2 to 5 hours,Urban,yes,4,0,yes,GP
+65,15,2 to 5 hours,Urban,yes,5,2,no,GP
+66,12,>10 hours,Urban,yes,1,4,yes,GP
+67,6,>10 hours,Urban,yes,4,4,no,GP
+68,8,2 to 5 hours,Rural,yes,4,2,no,GP
+69,16,>10 hours,Rural,yes,4,12,no,GP
+70,15,>10 hours,Urban,yes,4,0,no,GP
+71,10,>10 hours,Urban,yes,3,0,no,GP
+72,5,2 to 5 hours,Rural,yes,3,2,yes,GP
+73,14,<2 hours,Urban,no,5,2,no,GP
+74,11,2 to 5 hours,Urban,yes,4,54,no,GP
+75,10,2 to 5 hours,Urban,yes,4,6,no,GP
+76,10,>10 hours,Urban,yes,3,8,no,GP
+77,11,>10 hours,Urban,yes,5,0,yes,GP
+78,10,<2 hours,Urban,yes,4,2,no,GP
+79,5,2 to 5 hours,Urban,yes,2,12,no,GP
+80,12,<2 hours,Urban,yes,3,2,yes,GP
+81,11,5 to 10 hours,Urban,yes,5,4,no,GP
+82,6,2 to 5 hours,Urban,yes,4,10,no,GP
+83,15,2 to 5 hours,Urban,yes,5,4,no,GP
+84,10,2 to 5 hours,Urban,yes,4,2,no,GP
+85,8,2 to 5 hours,Urban,yes,4,6,yes,GP
+86,6,2 to 5 hours,Urban,no,4,4,no,GP
+87,14,5 to 10 hours,Urban,yes,5,4,no,GP
+88,10,2 to 5 hours,Urban,yes,4,12,no,GP
+89,7,2 to 5 hours,Urban,no,4,18,no,GP
+90,8,5 to 10 hours,Urban,yes,4,0,yes,GP
+91,18,<2 hours,Urban,yes,4,4,no,GP
+92,6,2 to 5 hours,Urban,no,3,4,no,GP
+93,10,2 to 5 hours,Urban,yes,5,0,no,GP
+94,14,>10 hours,Urban,yes,4,6,no,GP
+95,10,>10 hours,Rural,yes,3,2,no,GP
+96,15,<2 hours,Rural,yes,3,2,no,GP
+97,10,2 to 5 hours,Urban,no,4,2,yes,GP
+98,14,<2 hours,Urban,yes,5,6,no,GP
+99,8,5 to 10 hours,Urban,yes,5,0,no,GP
+100,5,<2 hours,Urban,yes,4,14,no,GP
+101,17,5 to 10 hours,Urban,yes,4,0,yes,GP
+102,14,<2 hours,Urban,yes,5,4,no,GP
+103,6,2 to 5 hours,Urban,yes,4,26,no,GP
+104,18,2 to 5 hours,Urban,yes,5,0,no,GP
+105,11,>10 hours,Urban,no,4,10,no,GP
+106,8,>10 hours,Urban,yes,5,8,no,GP
+107,18,5 to 10 hours,Urban,yes,5,2,no,GP
+108,13,>10 hours,Rural,yes,1,6,yes,GP
+109,16,5 to 10 hours,Urban,yes,5,4,yes,GP
+110,19,<2 hours,Urban,yes,5,6,no,GP
+111,10,5 to 10 hours,Rural,yes,4,0,no,GP
+112,13,2 to 5 hours,Urban,yes,3,6,no,GP
+113,19,<2 hours,Urban,yes,3,10,no,GP
+114,9,2 to 5 hours,Rural,yes,5,8,yes,GP
+115,16,2 to 5 hours,Urban,yes,5,2,no,GP
+116,14,2 to 5 hours,Urban,no,4,2,no,GP
+117,13,<2 hours,Urban,yes,5,0,no,GP
+118,8,2 to 5 hours,Rural,yes,5,20,no,GP
+119,13,<2 hours,Urban,yes,3,6,no,GP
+120,15,2 to 5 hours,Urban,yes,3,2,no,GP
+121,15,>10 hours,Urban,yes,5,6,no,GP
+122,13,2 to 5 hours,Urban,yes,4,2,yes,GP
+123,13,<2 hours,Urban,yes,3,18,no,GP
+124,8,2 to 5 hours,Urban,yes,5,0,yes,GP
+125,12,<2 hours,Urban,yes,5,0,no,GP
+126,11,2 to 5 hours,Urban,yes,5,0,yes,GP
+127,9,2 to 5 hours,Urban,no,3,2,no,GP
+128,0,<2 hours,Rural,yes,3,0,no,GP
+129,18,<2 hours,Rural,yes,3,8,no,GP
+130,0,5 to 10 hours,Rural,yes,4,0,yes,GP
+131,0,<2 hours,Urban,yes,4,0,yes,GP
+132,12,<2 hours,Urban,yes,3,12,yes,GP
+133,11,<2 hours,Urban,yes,3,16,no,GP
+134,0,2 to 5 hours,Rural,no,5,0,yes,GP
+135,0,5 to 10 hours,Urban,yes,4,0,yes,GP
+136,0,2 to 5 hours,Rural,no,5,0,no,GP
+137,0,<2 hours,Urban,yes,4,0,yes,GP
+138,12,2 to 5 hours,Urban,no,4,0,yes,GP
+139,15,<2 hours,Urban,yes,4,0,no,GP
+140,0,>10 hours,Urban,yes,2,0,no,GP
+141,9,<2 hours,Urban,yes,2,8,no,GP
+142,11,5 to 10 hours,Urban,yes,4,2,no,GP
+143,13,<2 hours,Urban,yes,3,2,no,GP
+144,0,<2 hours,Urban,yes,5,0,no,GP
+145,11,2 to 5 hours,Urban,yes,4,0,no,GP
+146,0,2 to 5 hours,Urban,yes,3,0,no,GP
+147,11,2 to 5 hours,Urban,yes,4,2,no,GP
+148,0,<2 hours,Urban,yes,3,0,yes,GP
+149,10,<2 hours,Urban,yes,4,0,no,GP
+150,0,<2 hours,Urban,yes,2,0,yes,GP
+151,14,<2 hours,Urban,no,4,6,yes,GP
+152,10,5 to 10 hours,Rural,yes,4,8,yes,GP
+153,0,<2 hours,Urban,yes,4,0,yes,GP
+154,12,<2 hours,Urban,no,4,0,yes,GP
+155,8,2 to 5 hours,Rural,no,4,2,no,GP
+156,13,<2 hours,Rural,no,2,8,no,GP
+157,10,<2 hours,Rural,no,5,6,no,GP
+158,15,<2 hours,Rural,no,4,2,no,GP
+159,12,2 to 5 hours,Urban,yes,4,4,yes,GP
+160,0,<2 hours,Rural,yes,3,0,yes,GP
+161,7,2 to 5 hours,Rural,yes,4,6,yes,GP
+162,0,<2 hours,Urban,no,4,0,no,GP
+163,10,<2 hours,Urban,yes,5,2,no,GP
+164,7,2 to 5 hours,Rural,no,5,0,yes,GP
+165,12,<2 hours,Urban,no,4,16,no,GP
+166,10,2 to 5 hours,Urban,yes,4,4,no,GP
+167,16,2 to 5 hours,Urban,yes,4,0,yes,GP
+168,0,2 to 5 hours,Urban,yes,5,0,no,GP
+169,14,2 to 5 hours,Urban,yes,4,0,yes,GP
+170,0,<2 hours,Urban,yes,3,0,no,GP
+171,16,2 to 5 hours,Urban,yes,4,2,yes,GP
+172,10,2 to 5 hours,Urban,yes,4,0,no,GP
+173,0,2 to 5 hours,Urban,yes,4,0,yes,GP
+174,9,2 to 5 hours,Urban,yes,4,4,no,GP
+175,9,2 to 5 hours,Urban,yes,4,4,no,GP
+176,11,2 to 5 hours,Urban,yes,3,2,no,GP
+177,6,2 to 5 hours,Urban,yes,4,4,no,GP
+178,9,<2 hours,Rural,yes,4,10,yes,GP
+179,11,2 to 5 hours,Urban,yes,5,4,yes,GP
+180,8,2 to 5 hours,Urban,yes,3,10,no,GP
+181,12,2 to 5 hours,Urban,yes,4,2,yes,GP
+182,17,2 to 5 hours,Urban,no,5,0,no,GP
+183,8,2 to 5 hours,Urban,yes,5,56,yes,GP
+184,12,2 to 5 hours,Urban,yes,1,14,no,GP
+185,11,2 to 5 hours,Urban,yes,4,12,yes,GP
+186,11,<2 hours,Urban,yes,3,2,yes,GP
+187,15,2 to 5 hours,Urban,yes,4,0,yes,GP
+188,9,2 to 5 hours,Urban,yes,3,6,yes,GP
+189,10,2 to 5 hours,Rural,no,3,4,no,GP
+190,13,2 to 5 hours,Urban,yes,4,10,no,GP
+191,9,2 to 5 hours,Urban,yes,5,0,no,GP
+192,8,2 to 5 hours,Urban,yes,4,12,no,GP
+193,10,<2 hours,Rural,yes,4,8,no,GP
+194,14,<2 hours,Urban,yes,5,0,no,GP
+195,15,2 to 5 hours,Urban,yes,4,0,yes,GP
+196,16,<2 hours,Urban,yes,5,4,no,GP
+197,10,<2 hours,Rural,yes,3,8,no,GP
+198,18,<2 hours,Urban,yes,4,24,no,GP
+199,10,2 to 5 hours,Urban,yes,4,0,no,GP
+200,16,2 to 5 hours,Urban,yes,4,2,no,GP
+201,10,2 to 5 hours,Urban,no,4,6,no,GP
+202,10,2 to 5 hours,Urban,no,4,4,no,GP
+203,6,<2 hours,Rural,yes,5,18,no,GP
+204,11,>10 hours,Rural,yes,5,6,no,GP
+205,9,5 to 10 hours,Urban,yes,4,28,yes,GP
+206,7,2 to 5 hours,Urban,yes,2,5,no,GP
+207,13,2 to 5 hours,Urban,yes,1,10,yes,GP
+208,10,<2 hours,Urban,no,4,6,no,GP
+209,7,5 to 10 hours,Rural,yes,4,6,yes,GP
+210,8,>10 hours,Urban,yes,4,10,no,GP
+211,13,2 to 5 hours,Urban,yes,5,13,yes,GP
+212,14,2 to 5 hours,Urban,yes,3,0,no,GP
+213,8,2 to 5 hours,Urban,yes,4,15,no,GP
+214,10,<2 hours,Rural,no,5,12,no,GP
+215,15,2 to 5 hours,Urban,yes,4,2,no,GP
+216,4,2 to 5 hours,Urban,yes,3,22,yes,GP
+217,8,2 to 5 hours,Urban,yes,3,13,no,GP
+218,8,<2 hours,Urban,no,3,3,no,GP
+219,10,5 to 10 hours,Urban,yes,4,4,no,GP
+220,6,2 to 5 hours,Rural,yes,4,2,no,GP
+221,0,5 to 10 hours,Urban,no,4,0,yes,GP
+222,17,2 to 5 hours,Urban,yes,2,2,no,GP
+223,13,2 to 5 hours,Urban,yes,3,0,no,GP
+224,14,5 to 10 hours,Urban,yes,5,0,no,GP
+225,7,2 to 5 hours,Rural,yes,5,16,yes,GP
+226,15,2 to 5 hours,Urban,yes,5,10,no,GP
+227,12,2 to 5 hours,Urban,yes,5,2,no,GP
+228,9,2 to 5 hours,Urban,yes,4,14,yes,GP
+229,12,5 to 10 hours,Urban,yes,3,10,yes,GP
+230,14,2 to 5 hours,Urban,yes,3,14,yes,GP
+231,11,2 to 5 hours,Rural,yes,4,4,no,GP
+232,9,2 to 5 hours,Urban,yes,4,14,yes,GP
+233,13,2 to 5 hours,Urban,yes,4,2,no,GP
+234,6,2 to 5 hours,Urban,yes,3,18,no,GP
+235,10,5 to 10 hours,Urban,yes,5,10,yes,GP
+236,13,2 to 5 hours,Urban,yes,4,4,yes,GP
+237,12,<2 hours,Urban,yes,4,20,yes,GP
+238,11,2 to 5 hours,Rural,no,2,2,no,GP
+239,0,2 to 5 hours,Urban,yes,5,0,no,GP
+240,12,2 to 5 hours,Urban,yes,2,14,yes,GP
+241,12,2 to 5 hours,Rural,yes,3,2,no,GP
+242,0,<2 hours,Urban,yes,5,0,no,GP
+243,12,<2 hours,Urban,yes,5,0,no,GP
+244,0,5 to 10 hours,Urban,yes,4,0,yes,GP
+245,18,<2 hours,Urban,yes,4,6,no,GP
+246,13,<2 hours,Urban,yes,5,4,no,GP
+247,8,<2 hours,Urban,yes,5,16,yes,GP
+248,5,2 to 5 hours,Rural,yes,4,8,yes,GP
+249,15,<2 hours,Urban,yes,4,0,no,GP
+250,8,<2 hours,Urban,yes,4,0,no,GP
+251,10,2 to 5 hours,Urban,yes,5,6,no,GP
+252,8,<2 hours,Urban,yes,3,4,no,GP
+253,8,<2 hours,Rural,no,3,0,no,GP
+254,12,<2 hours,Rural,yes,4,0,no,GP
+255,8,<2 hours,Urban,yes,4,2,no,GP
+256,13,>10 hours,Urban,yes,4,6,no,GP
+257,11,2 to 5 hours,Urban,yes,4,12,no,GP
+258,14,2 to 5 hours,Urban,yes,5,8,no,GP
+259,0,>10 hours,Urban,yes,3,0,yes,GP
+260,18,2 to 5 hours,Urban,yes,3,21,yes,GP
+261,8,2 to 5 hours,Urban,yes,4,2,no,GP
+262,12,5 to 10 hours,Rural,no,5,1,no,GP
+263,9,5 to 10 hours,Urban,no,3,4,no,GP
+264,0,5 to 10 hours,Urban,yes,4,0,yes,GP
+265,17,2 to 5 hours,Rural,yes,4,13,no,GP
+266,10,2 to 5 hours,Urban,yes,5,2,yes,GP
+267,11,2 to 5 hours,Rural,yes,4,8,no,GP
+268,10,2 to 5 hours,Urban,yes,5,10,yes,GP
+269,0,2 to 5 hours,Rural,yes,4,0,yes,GP
+270,9,2 to 5 hours,Urban,yes,4,15,no,GP
+271,14,>10 hours,Urban,yes,4,4,yes,GP
+272,11,2 to 5 hours,Urban,no,4,2,no,GP
+273,14,2 to 5 hours,Rural,no,3,2,yes,GP
+274,10,2 to 5 hours,Urban,yes,4,2,yes,GP
+275,12,2 to 5 hours,Urban,yes,4,6,yes,GP
+276,9,2 to 5 hours,Rural,yes,4,75,yes,GP
+277,9,<2 hours,Urban,yes,3,22,no,GP
+278,8,2 to 5 hours,Urban,yes,2,15,yes,GP
+279,10,<2 hours,Urban,yes,4,8,no,GP
+280,8,<2 hours,Urban,yes,4,30,yes,GP
+281,10,<2 hours,Urban,yes,4,19,no,GP
+282,12,>10 hours,Rural,no,5,1,no,GP
+283,10,2 to 5 hours,Urban,yes,5,4,no,GP
+284,11,2 to 5 hours,Urban,yes,5,4,no,GP
+285,11,2 to 5 hours,Urban,yes,4,2,no,GP
+286,19,5 to 10 hours,Urban,yes,4,5,no,GP
+287,12,5 to 10 hours,Urban,yes,4,6,no,GP
+288,14,5 to 10 hours,Urban,yes,4,6,no,GP
+289,15,2 to 5 hours,Urban,yes,5,9,no,GP
+290,11,2 to 5 hours,Urban,yes,4,11,yes,GP
+291,15,5 to 10 hours,Urban,yes,4,0,no,GP
+292,13,2 to 5 hours,Urban,yes,5,12,yes,GP
+293,18,>10 hours,Rural,no,3,6,no,GP
+294,14,5 to 10 hours,Rural,yes,5,8,no,GP
+295,11,<2 hours,Urban,yes,4,4,no,GP
+296,0,2 to 5 hours,Urban,yes,2,0,no,GP
+297,8,2 to 5 hours,Urban,yes,4,10,yes,GP
+298,14,>10 hours,Urban,yes,4,0,no,GP
+299,16,<2 hours,Urban,yes,1,5,yes,GP
+300,11,2 to 5 hours,Urban,yes,4,14,yes,GP
+301,10,<2 hours,Urban,yes,4,0,no,GP
+302,14,5 to 10 hours,Urban,yes,4,0,no,GP
+303,18,>10 hours,Urban,yes,5,0,no,GP
+304,13,2 to 5 hours,Urban,yes,4,20,yes,GP
+305,12,2 to 5 hours,Urban,yes,4,8,no,GP
+306,18,<2 hours,Urban,no,5,0,no,GP
+307,8,<2 hours,Urban,yes,4,38,yes,GP
+308,12,2 to 5 hours,Rural,no,4,0,yes,GP
+309,10,2 to 5 hours,Urban,yes,4,18,no,GP
+310,0,2 to 5 hours,Urban,no,4,0,yes,GP
+311,13,2 to 5 hours,Urban,yes,3,20,yes,GP
+312,11,2 to 5 hours,Urban,yes,4,3,no,GP
+313,11,2 to 5 hours,Urban,yes,4,22,yes,GP
+314,13,5 to 10 hours,Urban,yes,4,14,yes,GP
+315,11,5 to 10 hours,Rural,yes,4,40,yes,GP
+316,0,2 to 5 hours,Urban,yes,5,0,no,GP
+317,9,5 to 10 hours,Urban,yes,4,9,yes,GP
+318,10,5 to 10 hours,Rural,yes,4,0,no,GP
+319,11,2 to 5 hours,Urban,yes,4,2,no,GP
+320,13,2 to 5 hours,Urban,yes,5,23,yes,GP
+321,9,2 to 5 hours,Urban,no,4,12,yes,GP
+322,11,5 to 10 hours,Rural,yes,3,3,no,GP
+323,15,5 to 10 hours,Urban,yes,3,1,no,GP
+324,15,5 to 10 hours,Urban,yes,3,0,no,GP
+325,11,5 to 10 hours,Urban,yes,4,3,no,GP
+326,16,<2 hours,Urban,yes,4,3,no,GP
+327,10,<2 hours,Rural,yes,4,8,no,GP
+328,9,5 to 10 hours,Urban,yes,5,7,no,GP
+329,14,5 to 10 hours,Urban,yes,4,4,yes,GP
+330,8,>10 hours,Urban,yes,4,2,no,GP
+331,14,5 to 10 hours,Rural,yes,4,7,yes,GP
+332,0,2 to 5 hours,Urban,yes,5,0,no,GP
+333,0,2 to 5 hours,Urban,yes,4,0,yes,GP
+334,0,>10 hours,Rural,no,4,0,no,GP
+335,15,5 to 10 hours,Urban,yes,4,16,no,GP
+336,13,5 to 10 hours,Rural,no,5,12,no,GP
+337,0,2 to 5 hours,Urban,yes,4,0,yes,GP
+338,17,>10 hours,Urban,yes,5,7,no,GP
+339,10,2 to 5 hours,Rural,yes,4,4,no,GP
+340,11,5 to 10 hours,Urban,yes,4,4,yes,GP
+341,0,2 to 5 hours,Urban,yes,4,0,no,GP
+342,15,2 to 5 hours,Urban,yes,4,11,yes,GP
+343,0,2 to 5 hours,Urban,yes,3,0,yes,GP
+344,10,5 to 10 hours,Urban,yes,4,4,no,GP
+345,14,5 to 10 hours,Urban,yes,5,7,yes,GP
+346,16,5 to 10 hours,Rural,yes,5,9,yes,GP
+347,9,5 to 10 hours,Urban,yes,5,0,yes,GP
+348,15,5 to 10 hours,Urban,yes,4,0,yes,GP
+349,13,<2 hours,Rural,yes,2,10,no,MS
+350,8,2 to 5 hours,Rural,yes,5,8,no,MS
+351,13,2 to 5 hours,Urban,yes,4,2,no,MS
+352,8,<2 hours,Urban,yes,4,7,yes,MS
+353,8,<2 hours,Rural,yes,4,4,no,MS
+354,11,2 to 5 hours,Rural,yes,4,4,yes,MS
+355,9,2 to 5 hours,Urban,no,5,0,yes,MS
+356,13,2 to 5 hours,Rural,yes,4,4,no,MS
+357,11,2 to 5 hours,Urban,no,1,2,yes,MS
+358,10,<2 hours,Urban,yes,3,4,yes,MS
+359,16,5 to 10 hours,Urban,yes,5,0,no,MS
+360,13,2 to 5 hours,Rural,no,4,0,yes,MS
+361,12,2 to 5 hours,Rural,no,4,2,no,MS
+362,10,2 to 5 hours,Urban,yes,4,0,yes,MS
+363,15,2 to 5 hours,Urban,yes,2,0,yes,MS
+364,12,2 to 5 hours,Rural,no,3,0,no,MS
+365,10,2 to 5 hours,Rural,no,3,4,no,MS
+366,13,5 to 10 hours,Urban,yes,4,0,yes,MS
+367,0,<2 hours,Rural,yes,5,0,yes,MS
+368,10,<2 hours,Urban,yes,5,0,yes,MS
+369,11,2 to 5 hours,Rural,yes,3,10,yes,MS
+370,9,2 to 5 hours,Urban,no,3,4,yes,MS
+371,12,<2 hours,Rural,yes,4,3,yes,MS
+372,11,5 to 10 hours,Urban,no,3,8,yes,MS
+373,5,<2 hours,Rural,yes,3,14,no,MS
+374,19,5 to 10 hours,Rural,yes,5,0,no,MS
+375,10,5 to 10 hours,Rural,yes,4,2,no,MS
+376,15,5 to 10 hours,Urban,yes,5,4,yes,MS
+377,10,2 to 5 hours,Rural,yes,5,4,no,MS
+378,15,2 to 5 hours,Urban,yes,4,0,yes,MS
+379,10,2 to 5 hours,Rural,yes,4,17,no,MS
+380,14,2 to 5 hours,Urban,yes,3,4,no,MS
+381,7,<2 hours,Rural,yes,4,5,yes,MS
+382,10,2 to 5 hours,Urban,yes,4,2,no,MS
+383,0,<2 hours,Rural,no,4,0,no,MS
+384,5,<2 hours,Rural,no,5,14,no,MS
+385,10,5 to 10 hours,Rural,no,5,2,no,MS
+386,6,<2 hours,Rural,yes,4,7,yes,MS
+387,0,5 to 10 hours,Rural,yes,5,0,no,MS
+388,8,2 to 5 hours,Urban,yes,4,0,no,MS
+389,0,2 to 5 hours,Urban,no,1,0,no,MS
+390,9,2 to 5 hours,Urban,no,5,11,no,MS
+391,16,<2 hours,Urban,yes,2,3,no,MS
+392,7,<2 hours,Rural,no,5,3,no,MS
+393,10,<2 hours,Rural,yes,4,0,no,MS
+394,9,<2 hours,Urban,yes,3,5,no,MS
