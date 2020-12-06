@@ -1,0 +1,251 @@
+﻿Classificação e Predição - Notas de aula
+
+
+===============================================================================
+Unidade 01 - Modelagem
+
+* Organização dados para facilitar extração de informações
+* Classificação por alguma característica facilita a busca pela informação
+  * Mais atributos podem auxiliar na classificação mais precisa e detalhada
+
+* Classificação de dados => Mineração de Dados
+  * Auxilia a tomada de decisão de gestores
+  * Criar informações e conhecimentos que gerem vantagem de mercado
+  * É o ato de aprender através da base de dados. Um modelo é extraído com base no aprendizado
+  realizado utilizando a base de dados
+
+* Mineração de dados: É o processo de realizar análises em grandes conjuntos de 
+dados para extrair novos conhecimentos, através dos seus padrões de comportamento, 
+o que é realizado aproveitando métodos computacionais. Classificação para análise
+e compreensão das relações existentes entre eles e criação um modelo que descreva as 
+relações identificadas.
+  * Tarefas possíveis da Mineração de dados:
+    * Classificação: Extração de modelo de dados, define classes
+    * Regressão: Para problemas com valor contínuo de saída, valores numéricos
+    * Associação: Propõe regras de comportamento do tipo "Se x, então y"
+    * Clusterização / Agrupamento: Separação de grupos de dados por similaridade
+  * Tecnologias associadas à mineração de dados:
+    * Estatística
+    * Visualização
+    * Aprendizagem de Máquina
+    * Intelgiência Aritificial
+
+* Processo de KDD (Knowledge Database Discovery)
+  * É um processo dividido em etapas e projetado para explorar ao máximo o potencial de 
+  geração de conhecimento de bases de dados
+  * Etapas: Extração de dados -> Seleção -> Pré-Processamento -> Transformação -> Data Mining -> Interpretação
+
+Tipos de tarefas para manipulação de dados
+* Regressão
+  * Objetivo: Não tem como objetivo rotular, mas estimar uma valor para cada padrão de 
+  comportamento que for apresentado ao modelo.
+  * Utilização: Para valores contínuos
+  * Exemplo: Linha de tendência (regressão linear) que representa o valor médio de um 
+  conjunto de pontos em um gráfico 
+* Associação
+  * Objetivo: Extrair conhecimento de uma base de dados para gerar regras que associam
+  determinadas características com determinado fato. 
+  * SE atributo x ENTÃO resultado y
+* Clusterização
+  * Objetivo: Algoritmo analisa a similaridade dos dados e cria grupos nos quais os 
+  elementos sejam semelhantes entre si.
+* Classificação de dados
+  * Utilização: Detecção de fraudes (compras online, intrusão em software, acesso indevido), 
+  diagnóstico (falhas, doenças, performance), detecção de qualidade (água, vírus no sangue)
+
+Premissas da Classificação
+* Quando usar:
+  * Para dados que possam ser categorizados
+  * Possíveis classes do problema devem ser conhecidas
+  * Deve possuir dados de treinamento
+* Etapas:
+  * Etapa 1 - Definição da Tarefa: Classificação
+  * Etapa 2 - Definição da Técnica: Redes Neurais, Árvores de Decisão, Métodos estatísticos, Formulações híbridas.
+    * Usada para o treinamento do modelo
+  * Etapa 3 - Definição do Algoritmo
+  * Etapa 4 - Manipulação do banco de dados
+
+Etapas da Classificação de dados
+* Obtenção da base de dados (dados categóricos)
+* Escolha do algoritmo que irá apredner com os dados e criar o modelo
+* Classificação dos dados através de (1) treinamento e (2) aplicação
+
+Treinamento do modelo
+* Etapas
+  * Definir o objetivo para o modelo
+  * Escolha da técnica e algoritmo para realizar o treinamento
+  * Definir os padrões de entrada e dados (colunas de dados) e os atributos (valores)
+  * A saída são rótulos de classificação
+* Avaliação: O modelo deve ser avaliado e validado antes de ser usado em produção.
+ 
+Tipos de Classificação
+* Classificação linear: Separa dados por uma reta. Ex.: Algoritmo Perceptron
+* Classificação não-linear: Problemas com mais de duas classes para rotular dados.
+Uso de função polinomial ou múltiplas funções. Ex.: Algoritmo Multilayer Perceptron
+
+Classificação x Clusterização
+* Classificação 
+  * Objetivo: Divide dados em categorias
+  * Tipo de aprendizado: Supervisionado
+  * Dados de treinamento: Necessário
+  * Exemplos:
+* Clusterização
+  * Objetivo: Reúne dados por similaridade sem definição de categorias
+  * Tipo de aprendizado: Não-Supervisionado
+  * Dados de treinamento: Não-Necessário
+  * Exemplos:
+
+Modelo
+* Um modelo é um mecanismo, formato ou estrutura a ser utilizada para explicar outra coisa.
+* Um bom modelo representa com aurácia a realidade.
+* Modelos matemáticos estabelecem relações entre diversas variáveis e tem a capacidade de
+generalizar resultados para novas situações do mesmo domínio do problema aprendido.
+
+Análise Preditiva
+* Conceito
+  * Utilização de dados históricos e um algoritmo de aprendizado de máquina para identificar
+  padrões de comportamento dos dados.
+  * Permitir prever variações, tendências, situações futuras.
+  * Auxilia nas tomadas de decisões e estratégias de negócios.
+* Utilização: Avaliação de risco de crédito, diagnóstico de doenças, combate à fraudes, 
+marketing (sistemas de recomendação)
+* Métodos: Uso de métodos estatísticos
+
+Classes de Algoritmos para Classificação de Dados
+* Árvores de Decisão
+  * Possui representação similar a uma árvore ou grafo
+  * Os nós podem funcionar como questionamentos e as arestas como opções de resposta
+  * Os dados são classificados percorrendo o caminho possível entre o topo ao final da árvore
+* Redes Neurais
+  * Simulam o funcionamento do cérebro humano
+  * Aprende através das sinapses realizadas nos neurônios
+  * Cria neurônios artificais e conectados entre si. São organizados em camadas.
+  * Cada neurônio possui um peso diferente
+* Métodos Bayesianos
+  * Determina a probabilidade de um determinado evento acontecer (probabilidade futura)
+  * Utiliza a probabilidade de eventos passados para calcular um evento futuro
+===============================================================================
+
+===============================================================================
+Unidade 02 - Baseando-se na vizinhança
+
+* Vizinhança
+  * Vizinhos são semelhantes.
+  * Vizinhos estão geograficamente próximos uns dos outros. 
+  * Tendem a ficar concentrados em uma região.
+  * A vizinhança é definida pela distância (euclidiana, manhattan, outras).
+  * A distância é sempre dada pelo espaço que separa dois objetos diferentes.
+    * Distância menor: mais semelhantes.
+    * Distância maior: menos semelhantes.
+  * Os dados devem ser normalizados para que o cálculo da distância não seja afetado.
+
+* Medidas de Distância
+  * K-NN
+  * Mapas auto organizáveis
+  * Distância de Manhattan: Somatório dos módulos das diferenças entre dois pontos.
+  * Distância Euclidiana: Distância da reta entre dois pontos.
+  * Distância de Chebyshev
+
+* Base de dados Titanic
+* Python - Biblioteca Pandas: Series, DataFrame
+* Python - Biblioteca Numpy: ndarray
+* Python - Biblioteca Scikit-learn: Possui recursos para aprendizado de máquina
+  * train_test_split() : Divide conjunto de dados em conjnto de treinamento e teste.
+  * fit() : treinamento
+  * predict() : teste, validação
+
+* Normalização de dados
+  * Importante para padronzar o comportamento dos dados utilizados.
+  * Facilita o aprendizado correto do algoritmo.
+  * Dados são dimensionados a um intervalo específico, -1 a 1 ou 0 a 1.
+
+* Formas de normalização
+  * Método min-máx: Usa valor mínimo e máximo para determinar o intervalo de valores transportados.
+  * Método z-score: Usa média e desvio padrão do atributo.
+
+* One Hot Encoding
+  * Método para transformar dados em dados categóricos
+  * Dados categóricos são nominais ou ordinais. Ex.: masculino/feminino
+  * Prepara os dados para mineração
+  * Certos algoritmos, como o SVM, só trabalham com dados categóricos.
+  * Sikit-Learn -> Label Encoder
+  * Exemplo de transformação: [laranja, uva, banana, maça] -> [0, 1, 2, 3]
+    * One Hot Enconder faz transformação para valores binários
+  
+* Algoritmo KNN (K Nearest Neighbor)
+  * Se baseia no conceito de vizinhança para classificação de dados
+  * K é a indicação de quantos vizinhos são usados na definição da classe da amostra
+  * K não pode ser muito grande ou muito pequeno
+===============================================================================
+
+===============================================================================
+Unidade 03 - Árvores de Decisão
+
+* Árvore de Decisão - Conceitos
+  * Aprendizado de máquina supervisionado (treino e teste)
+  * Usado para tarefas de classificação e regressão
+  * Utilizadas para casos nos quais os dados são lidos diretamento do algoritmo
+  * Caminhamento do nó raiz (início) até nó folha (classe/solução/resposta/decisão)
+
+* Árvore de Decisão - Estrutura
+  * Composição: Raiz (nó inicial), nós e folhas (nós finais). Possui ramificações
+
+* Árvore de Decisão - Usos
+  * Prever riscos, probabilidade de acontecer determinados cenários
+
+* Ganho de informação
+  * O ganho de informação indica que mais nós na árvore agregam mais informações sobre o problema. 
+  * O ganho de informação utiliza métrica para seu cálculo, por exemplo, entropia ou GINI.
+  * Métrica de Entropia: Conceito da física. Nível de homogeneidade entre elementos de um determinado espaço (física). Calcula a relação entre a quantidade de ocorrências de uma classe e a quantidade de ocorrências dentro da região.
+  * Métrica de GINI 
+
+Overfitting e Underfitting
+* Overfitting: Excesso de treinamento da estrutura da árvore. Fica com resultados muito específicos. Perde a capacidade de generalizar. Não consegue mais inferir coisas novas com amostras que nunca teve contato.
+  * Pode ser feita a poda a árvore para deixar a árvore mais genérica.
+  * Pode ser evitado também ao limitar a altura da árvore.
+* Underfitting: Pouco treinamento e árvore muito genérica. Não consegue classificar corretamente.
+  * É possível aumentar a altura da árvore, realizar treinamento com mais amostras, dentre outros.
+
+Algoritmos para criação de Árvore de Decisão
+* ID3: Imita o comportamento humano no processo de aprendizagem. Aprende com as experiências para depois solucionar problemas desconhecidos.
+  * Posiciona o atributo mais importante no topo da árvore
+  * Agrupa elementos por classes
+  * Não garante a solução ótima, pois escolhe a melhor decisão local (de nó para nó), e não melhor decisão global (nó raiz até folha).
+* CART (Classification and Regression Trees): Supervisionado (treinamento e teste)
+  * Construção de modelo top-down (raiz-folha)
+  * Perguntas binárias: Gera árvore binária. Apenas dois nós a partir do nó pai.
+  * Árvore alta e com podas no final do processo de criação da árvore.
+  * Cálculo de ganho: Em cada etapa é escolhida a divisão que produz maior queda no erro de classificação
+===============================================================================
+
+===============================================================================
+Unidade 04 - Processamento de linguagem natural
+
+Fatoração de Matrizes
+* Reescrever a matriz em uma nova estrutura mais fácil
+* Para texto => Decomposição singular
+* A decomposição singular reduz a matriz, proporcionando menor processamento
+
+Aproximação do posto k
+* Outra forma de fatoração de matriz para reduzir sua dimensão (tamanho)
+* Usada para decomposição de imagens, sem perder muita informação
+
+Processamento de Linguagem Natural
+* Python: NLTK (Natural Language Toolkit)
+(1) Tokenização: Segmentação do texto em palavras.
+(2) Análise léxica: Define a classe de cada palavra.
+(3) Análise sintática: Determina a forma como as palavras devem ser estruturadas para que expressem significado correto.
+(4) Análise semântica: Significado das palavras.
+(5) Análise pragmética: Tratamento de pronomes em cada frase.
+
+Processo de Stemming
+* Encontrar radical das palavras.
+* Usado na análise léxica para reconhecer o lemma, que é o radical da palavra.
+* Feito para todas as palavras.
+* Reduz complexidade das palavras.
+
+Python
+* Biblioteca Matplotlib - Visualização
+* Dados Nulos (NaN): Removendo dados nulos
+* Biblioteca Multiprocessing: Simula threading. Cria subprocessos e não threads
+===============================================================================

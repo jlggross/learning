@@ -1,0 +1,49 @@
+# Limpar pasta tmp do hadoop
+> cd /usr/local/hadoop/tmp
+> sudo rm -r dfs
+> sudo rm -r nm-local-dir
+
+# Formatar HDFS
+> cd /usr/local/hadoop/
+> bin/hdfs namenode -format
+
+# Iniciar todos os aplicativos do Hadoop
+> cd /usr/local/hadoop/sbin
+> ./start-all.sh
+
+# Criar pasta "Desafio"
+> cd /usr/local/hadoop
+> mkdir Desafio/
+
+# Inserir arquivo covidData.txt na pasta Desafio
+> cp /usr/local/hadoop/Dados/covidData.txt /usr/local/hadoop/Desafio
+
+# Inserir arquivo covidData.txt no HDFS
+> cd /usr/local/hadoop
+> bin/hdfs dfs -mkdir /Desafio
+> bin/hdfs dfs -put /usr/local/hadoop/Desafio/covidData.txt /Desafio
+
+###################################################
+
+# Hive, limpar schemas velhos
+> cd /usr/local/hive
+> rm -rf metastore_db/
+
+# Reconstruir estrutura de schemas do Hive
+> cd /usr/local/hive
+> bin/schematool -initSchema -dbType derby
+
+# Abrir shell do Hive
+> cd /usr/local/hive
+> bin/hive
+
+# Comandos no shell do Hive
+hive> show databases;
+hive> create database dbDesafio;
+hive> show databases;
+
+hive> CREATE TABLE DadosCovid (dataOcorrencia STRING, siglaPais STRING, descPais STRING, regiao STRING, novosCasos INT, casosAcumulados INT, novosObitos INT, ObitosAcumulados INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' STORED AS TEXTFILE LOCATION '/hive/dbdesafio/dadoscovid';
+
+hive> show tables;
+
+hive> LOAD DATA INPATH 'hdfs://localhost:54310/Desafio/covidData.txt' INTO TABLE DADOSCOVID

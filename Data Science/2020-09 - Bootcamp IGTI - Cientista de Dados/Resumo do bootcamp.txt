@@ -1,0 +1,23 @@
+Resumo do Bootcamp
+
+Módulo 01: Fundamentos
+* Uso de Power BI para criar dashboards interativos para a análise de dados;
+* Uso do Google Colab com script em Python utilizando as bibliotecas matplotlib e sklearn (scikit-learn) para análise de dados com o algoritmo KMeans.
+* Consultas em SQL com simulador do PostgreSQL
+
+Módulo 02: Banco de dados e Notebooks Python e R
+* Instalação, configuração e uso do ambiente Anaconda;
+* Instalação e configuração do MySQL Server e MYSQL Worbench, trabalhando com scripts em Python e R sobre os bancos de dados MySQL;
+* Pincelada em WebScraping com BeautifulSoup;
+* Criação e manipulação de banco de dados não relacional (MongoDB)
+
+Módulo 03: Big Data e Hadoop
+* Instalação e uso de máquina virtual;
+* Instalação e configuração do Hadoop e HDFS (sistema de arquivos distribuído);
+* Execução de scripts Map-Reduce no Ecossistema Hadoop utilizando o sistema de arquivos HDFS;
+* Manipulaçao de dados com o Apache Hive (semelhante ao SQL, mas distribuído).
+
+Módulo 04: Técnicas de análise para a Ciência de Dados
+* Biblioteca pandas para análise de dados;
+* Biblioteca sklearn (scikit-learn) para treinamento e análise de modelo;
+* Utilização de Spark MLlib (biblioteca pyspark) na plataforma databricks para pré-processamento de dados e utilização do algoritmo K-Means (Clusterização de dados).

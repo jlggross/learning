@@ -1,0 +1,25 @@
+# Limpar pasta tmp
+> cd /usr/local/hadoop/tmp
+> sudo rm -r dfs
+> sudo rm -r nm-local-dir
+
+> cd /usr/local/hadoop
+> sudo rm -r tmp/*
+
+# Formatar HDFS
+> cd /usr/local/hadoop/
+> bin/hdfs namenode -format
+
+# Iniciar todos os aplicativos
+> cd /usr/local/hadoop/sbin
+> ./start-all.sh
+
+# Verificar execução dos 5 aplicativos
+> jps
+
+# Compilar programa para execução
+> ant –f /usr/local/hadoop/ExemploIGTI/build_ExemploIGTI.xml makejar
+
+# Execução do programa
+> /usr/local/hadoop/bin/hadoop jar /usr/local/hadoop/ExemploIGTI/ExemploIGTI.jar IGTI.ExemploIGTI
+
